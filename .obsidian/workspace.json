@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db295012e47fc026",
+            "id": "155fb6e2063ce382",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primeira nota.md",
+                "file": "Inicio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primeira nota.md",
+                "file": "Inicio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Primeira nota.md",
+                "file": "Inicio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Primeira nota.md"
+                "file": "Inicio.md"
               }
             }
           },
@@ -155,10 +155,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0b471c07d4814e7",
+  "active": "155fb6e2063ce382",
   "lastOpenFiles": [
+    "BakcEnd/DDD/Curso-YT/1- Introdução.md",
+    "Inicio.md",
+    "BakcEnd/DDD/Curso-YT",
+    "BakcEnd/DDD",
     "BakcEnd/DotNet",
-    "BakcEnd",
-    "Primeira nota.md"
+    "BakcEnd"
   ]
 }
