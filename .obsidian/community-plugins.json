@@ -1,4 +1,8 @@
 [
   "obsidian-git",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-admonition",
+  "colored-text",
+  "make-md",
+  "style-text"
 ]
