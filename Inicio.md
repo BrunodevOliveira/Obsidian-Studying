@@ -1,0 +1,1 @@
+Plugin para formatar textos -> Editing Toolbar
