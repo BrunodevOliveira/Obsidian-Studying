@@ -44,10 +44,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
-    "//BakcEnd",
     "//BakcEnd/BakcEnd/DDD",
-    "//BakcEnd/BakcEnd/DDD/BakcEnd/DDD/Curso-YT"
+    "//BakcEnd/BakcEnd/DDD/BakcEnd/DDD/Curso-YT",
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
