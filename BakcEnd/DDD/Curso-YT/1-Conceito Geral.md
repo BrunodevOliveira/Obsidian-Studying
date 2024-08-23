@@ -1,5 +1,8 @@
 ![[Introdução.excalidraw]]
 
+# O que é
+Domain-Driven Design é uma <mark style="background-color: #fff88f; color: black">abordagem de desenvolvimento</mark> de software que <mark style="background-color: #fff88f; color: black">foca na complexidade do domínio do negócio</mark>.
+
 # Visão estratégica
 
 ## Dominio

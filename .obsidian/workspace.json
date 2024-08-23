@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
+                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
+                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
+                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md"
+                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md"
               }
             }
           },
@@ -176,6 +177,10 @@
   },
   "active": "155fb6e2063ce382",
   "lastOpenFiles": [
+    "Arquivos/Imagens/LimitesDoBoundedContext.png",
+    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+    "BakcEnd/DDD/Curso-YT/Curso-YT.md",
+    "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Arquivos.md",
     "Arquivos",
     "Vault.md",
@@ -183,7 +188,6 @@
     "Arquivos/Imagens",
     "Sem título.md",
     "Pasted image 20240822212201.png",
-    "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Imagens/Pasted image 20240822210252.png",
     "Pasted image 20240822205857.png",
     "Arquivos/Imagens/Pasted image 20240822212824.png",

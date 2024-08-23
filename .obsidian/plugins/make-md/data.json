@@ -46,7 +46,8 @@
   "expandedSpaces": [
     "//BakcEnd/BakcEnd/DDD",
     "//BakcEnd/BakcEnd/DDD/BakcEnd/DDD/Curso-YT",
-    "/"
+    "/",
+    "//BakcEnd"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
