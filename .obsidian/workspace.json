@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md"
+                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md"
               }
             }
           },
@@ -177,10 +177,11 @@
   },
   "active": "155fb6e2063ce382",
   "lastOpenFiles": [
-    "Excalidraw/Introdução.excalidraw.md",
-    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
-    "Arquivos/Imagens/LimitesDoBoundedContext.png",
+    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/Curso-YT.md",
+    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+    "Excalidraw/Introdução.excalidraw.md",
+    "Arquivos/Imagens/LimitesDoBoundedContext.png",
     "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Arquivos.md",
     "Arquivos",
