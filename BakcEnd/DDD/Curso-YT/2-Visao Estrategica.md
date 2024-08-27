@@ -1,15 +1,21 @@
+# Domain
+O problema que iremos resolver com o software que será construido. Geralmente se refere ao contexto geral de uma organização
+
+
+# Core Domain
+- Dominio principal
+- Aquilo que a organização faz de melhor e não deve terceirizar
+- O correto é começar pelo Core Domain
+
+
 # Subdomínio
+
 > [!question] Dividir
 > Assim como no churrasco você não assa o boi inteiro, no DDD precisamos dividir o domínio (churrasco) em subdomínios (peças de carne) e nos concentrar no preparo de cada uma delas
 - O DDD nos encoraja a dividir em partes o problema que temos que resolver com o software
 - <mark style="background-color: #fff88f; color: black">Essas partes são chamadas de subdomínio</mark>
 - Cada subdomínio terá sua responsabilidade
 - Não devemos nos preocupar com nada que seja fora do domínio, por exemplo infraestrutura
-
-# Core Domain
-- Dominio principal
-- Aquilo que a organização faz de melhor e não deve terceirizar
-- O correto é começar pelo Core Domain
 
 
 # Bounded Context
@@ -29,7 +35,6 @@
 ## Bounded Context X Microserviços
 > [!NOTE]
 > Bounded Contexts são uma ferramenta de modelagem de domínio que ajuda a organizar a complexidade do negócio, enquanto microserviços são uma escolha arquitetural que influencia como o sistema é construído e implantado. Embora frequentemente alinhados, eles abordam diferentes aspectos do design de software.
-Bounded Contexts:
 
 **Bounded Context:**
 
@@ -72,8 +77,48 @@ Bounded Contexts:
 
 
 # Context Map
+Se um domínio possui muitos Bounded Contexts, o DDD sugere o uso de Mapas de Contexto como uma forma de documentar e comunicar os limites de cada contexto.
+- é uma documentação para destacar os elementos que podem gerar conflitos entre os bounded contexts
+- Nesse documento apontamos as palavras em comum entre bounded contexts e o seu significado em cada contexto, os serviços compartilhados que cada um acessa (ex.: login)
 
 # Shared Kernel
+É o Bounded Context que será compartilhado por todos os outros subdomínios do nosso domínio.
 
 # Ubiquotous Language
+> [!NOTE]
+> É o vocabulário do seu modelo
 
+Não devemos ter "dicionários" para traduzir os termos do usuário para os nossos termos.
+O ideal é ter uma linguagem única ou comum para todos os envolvidos
+
+Linhagem única:
+- Para um único bounded context
+- Utilizada nesse contexto em qualquer conversa ou codigo
+- Documento, Código, Database, Emails, Pendências, etc
+
+
+# Resumo
+> [!NOTE]
+> Imaginemos que estamos construindo uma cidade chamada "DDDville"
+> 
+- Domain (Domínio):
+    - Analogia: É toda a cidade de DDDville. Representa todo o problema que estamos tentando resolver.
+    - Técnico: O problema geral que o software resolve, incluindo todas as regras de negócio, processos e entidades.
+- Core Domain (Domínio Principal):
+    - Analogia: É o centro da cidade, onde está a prefeitura. É a parte mais importante e que diferencia DDDville de outras cidades.
+    - Técnico: A parte mais crítica e valiosa do sistema, que oferece vantagem competitiva e não deve ser terceirizada.
+- Subdomain (Subdomínio):
+    - Analogia: São os diferentes bairros da cidade. Cada bairro tem sua função específica (residencial, comercial, industrial).
+    - Técnico: Áreas distintas dentro do domínio principal, cada uma com seu próprio conjunto de problemas e soluções.
+- Bounded Context (Contexto Delimitado):
+    - Analogia: São as regras e leis específicas de cada bairro. Por exemplo, no bairro industrial, as regras são diferentes do bairro residencial.
+    - Técnico: Fronteira explícita dentro da qual um modelo de domínio específico se aplica, com sua própria linguagem ubíqua e implementação.
+- Context Map (Mapa de Contexto):
+    - Analogia: É o mapa da cidade que mostra como os bairros se conectam e interagem entre si.
+    - Técnico: Documento ou diagrama que ilustra as relações entre diferentes Bounded Contexts, incluindo padrões de integração como Shared Kernel, Customer-Supplier, etc.
+- Shared Kernel (Núcleo Compartilhado):
+    - Analogia: É como o sistema de água e esgoto da cidade, compartilhado entre diferentes bairros.
+    - Técnico: Código ou modelo de domínio compartilhado entre dois ou mais Bounded Contexts, exigindo coordenação para mudanças.
+- Ubiquitous Language (Linguagem Ubíqua):
+    - Analogia: É o dialeto local de DDDville. Todos na cidade usam os mesmos termos para se referirem às coisas, evitando mal-entendidos.
+    - Técnico: Vocabulário comum usado por desenvolvedores e especialistas do domínio para descrever o sistema, refletido no código e na modelagem.
