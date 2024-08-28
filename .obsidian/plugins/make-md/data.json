@@ -47,7 +47,9 @@
     "//BakcEnd/BakcEnd/DDD",
     "//BakcEnd/BakcEnd/DDD/BakcEnd/DDD/Curso-YT",
     "/",
-    "//BakcEnd"
+    "//BakcEnd",
+    "//Arquivos",
+    "//Arquivos/Arquivos/Imagens"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

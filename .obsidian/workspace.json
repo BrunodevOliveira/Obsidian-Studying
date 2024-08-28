@@ -28,6 +28,18 @@
                 "file": "Excalidraw/Introdução.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "575c065d8cf042dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -177,9 +189,10 @@
   },
   "active": "155fb6e2063ce382",
   "lastOpenFiles": [
+    "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
-    "BakcEnd/DDD/Curso-YT/Curso-YT.md",
     "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+    "BakcEnd/DDD/Curso-YT/Curso-YT.md",
     "Excalidraw/Introdução.excalidraw.md",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
     "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
