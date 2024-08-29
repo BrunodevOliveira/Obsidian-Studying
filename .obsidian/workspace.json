@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
-                "mode": "source",
+                "file": "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
+                "file": "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
+                "file": "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md"
+                "file": "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md"
               }
             }
           },
@@ -189,11 +188,13 @@
   },
   "active": "155fb6e2063ce382",
   "lastOpenFiles": [
-    "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
-    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
-    "BakcEnd/DDD/Curso-YT/Curso-YT.md",
+    "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
+    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "Excalidraw/Introdução.excalidraw.md",
+    "BakcEnd/DDD/Curso-YT/3-VisaoTatica.md",
+    "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
+    "BakcEnd/DDD/Curso-YT/Curso-YT.md",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
     "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Arquivos.md",

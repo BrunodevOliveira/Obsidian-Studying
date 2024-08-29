@@ -122,3 +122,5 @@ Linhagem única:
 - Ubiquitous Language (Linguagem Ubíqua):
     - Analogia: É o dialeto local de DDDville. Todos na cidade usam os mesmos termos para se referirem às coisas, evitando mal-entendidos.
     - Técnico: Vocabulário comum usado por desenvolvedores e especialistas do domínio para descrever o sistema, refletido no código e na modelagem.
+
+----

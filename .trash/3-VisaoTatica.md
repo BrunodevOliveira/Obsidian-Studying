@@ -39,14 +39,5 @@ Entity<Tkey> -> Classe que define o tipo do KEY e o comportamento para comparar 
 EntityKeySeq -> Classe que define que a Entidade terá uma Key do tipo long e que será gerada por uma "Sequence"
 
 
-# Associações
-Conceito de OO que permite criar "ligações" entre as classe
 
-O mapeamento que serão feitos pelo ORM é que irão definir como essa associações serão implementadas no BD
-
-## Associações com NoSQL
-É preciso declarar a key da entidade relacionada para controlar a "integridade" manualmente
-
-Essa key também é importante para "hidratar" manualmente as associações
-
-
+# Asso
