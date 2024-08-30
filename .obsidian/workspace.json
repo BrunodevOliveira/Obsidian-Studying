@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "53452c73aaf57584",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Arquivos/Imagens/Agregação.png"
+              }
+            }
+          },
+          {
             "id": "575c065d8cf042dd",
             "type": "leaf",
             "state": {
@@ -179,8 +189,9 @@
   },
   "active": "60513b201a3490a9",
   "lastOpenFiles": [
-    "Excalidraw/Introdução.excalidraw.md",
+    "Arquivos/Imagens/Agregação.png",
     "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
+    "Excalidraw/Introdução.excalidraw.md",
     "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
     "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/3-VisaoTatica.md",
