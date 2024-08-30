@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "155fb6e2063ce382",
+            "id": "60513b201a3490a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "60513b201a3490a9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Introdução.excalidraw.md"
               }
             }
           },
@@ -100,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -186,12 +177,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "155fb6e2063ce382",
+  "active": "60513b201a3490a9",
   "lastOpenFiles": [
-    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
-    "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
-    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "Excalidraw/Introdução.excalidraw.md",
+    "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
+    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
+    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/3-VisaoTatica.md",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "BakcEnd/DDD/Curso-YT/Curso-YT.md",
