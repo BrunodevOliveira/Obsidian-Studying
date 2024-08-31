@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "53452c73aaf57584",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Arquivos/Imagens/Agregação.png"
-              }
-            }
-          },
-          {
             "id": "575c065d8cf042dd",
             "type": "leaf",
             "state": {
@@ -100,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ceefa4b28723a10",
