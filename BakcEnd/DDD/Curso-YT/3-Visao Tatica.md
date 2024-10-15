@@ -1,25 +1,10 @@
 Elementos que irão compor um bounded context
 
-Tópicos abordados
-- Arquitetura em camadas
-- Shared Kernel
-- Foco no Domínio
-- Entities(Entidades)
-- Associações ente entidades
-- Enum
-- Comportamentos em entidades
-- Comportamente em Objetos de valor
-- Aggregates
-- Repositories
-- ORM
-- Injeção de dependência
-- Domain Services
-
 # Arquitetura em Camadas
-A solution representa o Subdomínio
-As pastas representam os bounded Contexts, principal e que se relacionam com o principal
-Os projetos irão representar as camadas
-Namespace: Dominio.Subdominio.Camada
+- A solution representa o Subdomínio
+- As pastas representam os bounded Contexts principal e que se relacionam com o principal
+- Os projetos irão representar as camadas
+- Namespace: Dominio.Subdominio.Camada
 
 # Entidades
 - Utilizada para armazenar, localizar e recuperar

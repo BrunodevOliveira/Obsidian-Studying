@@ -49,7 +49,7 @@ Domain-Driven Design é uma <mark style="background-color: #fff88f; color: black
 - Serviços-> Comportamentos que não cabem nas Entidades e Objetos de Valor
 - Factories-> Construtores de entidades complexas
 - Repositório -> Responsável pelo acesso e persistência de dados na camada de infraestrutura
-	- Para isso utilizamos a <mark style="background-color: #fff88f; color: black">geralmente através de uma ORM</mark> 
+	- Para isso utilizamos <mark style="background-color: #fff88f; color: black">geralmente um ORM</mark> 
 	-  Utilizamos uma Interface para determinar o que deve ser implementado na camada de infraestrutura
 
 > [!danger] Regra de outro!!

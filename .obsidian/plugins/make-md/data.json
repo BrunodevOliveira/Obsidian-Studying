@@ -44,11 +44,10 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//BakcEnd/BakcEnd/DDD",
-    "//BakcEnd/BakcEnd/DDD/BakcEnd/DDD/Curso-YT",
     "/",
     "//BakcEnd",
-    "//Arquivos/Arquivos/Imagens"
+    "//Arquivos/Arquivos/Imagens",
+    "//BakcEnd/BakcEnd/Web API  ASP .NET 8"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

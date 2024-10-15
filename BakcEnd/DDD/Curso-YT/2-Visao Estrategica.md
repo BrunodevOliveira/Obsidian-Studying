@@ -1,6 +1,8 @@
 # Domain
-O problema que iremos resolver com o software que será construido. Geralmente se refere ao contexto geral de uma organização
+> [!important] Todo o negócio
+> Representa todo o universo do negócio para o qual você está desenvolvendo software.
 
+O problema que iremos resolver com o software que será construido. Geralmente se refere ao contexto geral de uma organização
 
 # Core Domain
 - Dominio principal
