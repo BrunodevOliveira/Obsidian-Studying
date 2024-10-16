@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
+                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
+                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
+                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/1-notepad.md"
+                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md"
               }
             }
           },
@@ -166,9 +166,11 @@
   },
   "active": "f534cb6cb180a986",
   "lastOpenFiles": [
+    "BakcEnd/Web API  ASP .NET 8/2.1 Logging.md",
+    "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
     "BakcEnd/Web API  ASP .NET 8/2-notepad.md",
-    "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
     "BakcEnd/Web API  ASP .NET 8/Web API  ASP .NET 8.md",
+    "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
     "BakcEnd/Web API  ASP .NET 8/.md",
     "BakcEnd/Sem título.md",
     "BakcEnd/Web API  ASP .NET 8",
