@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "610ed6b940579bb0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Padrão Repository.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
+                "file": "Excalidraw/Padrão Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
+                "file": "Excalidraw/Padrão Repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md"
+                "file": "Excalidraw/Padrão Repository.md"
               }
             }
           },
@@ -164,16 +175,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f534cb6cb180a986",
+  "active": "610ed6b940579bb0",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP .NET 8/2.1 Logging.md",
-    "BakcEnd/Web API  ASP .NET 8/2.2 Filtro de Exceções.md",
-    "BakcEnd/Web API  ASP .NET 8/2-notepad.md",
-    "BakcEnd/Web API  ASP .NET 8/Web API  ASP .NET 8.md",
-    "BakcEnd/Web API  ASP .NET 8/1-notepad.md",
+    "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
+    "Excalidraw/Padrão Repository.md",
+    "BakcEnd/Web API  ASP DOT NET 8/2.2 Filtro de Exceções.md",
+    "BakcEnd/Web API  ASP DOT NET 8/2.1 Logging.md",
+    "BakcEnd/Web API  ASP DOT NET 8/2-notepad.md",
+    "BakcEnd/Web API  ASP DOT NET 8/Web API  ASP DOT NET 8.md",
+    "BakcEnd/Web API  ASP DOT NET 8/1-notepad.md",
     "BakcEnd/Web API  ASP .NET 8/.md",
     "BakcEnd/Sem título.md",
-    "BakcEnd/Web API  ASP .NET 8",
+    "BakcEnd/Web API  ASP DOT NET 8",
     "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
     "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
