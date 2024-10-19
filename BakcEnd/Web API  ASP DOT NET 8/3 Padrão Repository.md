@@ -113,7 +113,8 @@ Lógica de implementação:
 
 ## Implementação
 
-Criar a interface genérica que irá conter a assinatura dos métodos que serão compartilhados entres as classes:
+### 1-Interface genérica (`IRepository<T>`)
+A interface genérica é a base do padrão, definindo operações comuns que serão compartilhadas por todos os repositórios:
 
 ```C#
 using System.Linq.Expressions;
@@ -138,8 +139,13 @@ public interface IRepository<T>
 }
 ```
 
+**Pontos importantes:**
+- `T` é um tipo genérico que representa a entidade
+- `Expression<Func<T, bool>>` permite passar expressões lambda para filtrar dados
+- Métodos definem operações CRUD básicas
 
-Crio a classe genérica que implementa a interface:
+### 2-Implementação genérica(`Repository<T>`)
+A classe genérica implementa a interface e fornece a lógica comum
 
 ```C#
 namespace APICatalogo.Repositories;
@@ -195,50 +201,50 @@ public class Repository<T> : IRepository<T> where T : class
 ```
 
 
+### 3-Interface específica
 Na classe `Program.cs` adiciono no container de injeção de dependência a classe `Repository`:
 
 ```C#
-//Registro do Repository genérico para podet acessar o banco por ele
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+public interface IProdutoRepository : IRepository<Produto> 
+{ 
+	IEnumerable<Produto> GetProdutoPorCategoria(int id); 
+}
 ```
 
+**Características:**
+- Herda todos os métodos genéricos
+- Adiciona métodos específicos da entidade
+- Aumenta a flexibilidade do repositório
 
-Na interface especifica do repositorio, herdo a interface genérica `IRepository` passando como tipo a classe que representa o Modelo dos dados:
+Na interface especifica do repositório, herdo a interface genérica `IRepository` passando como tipo a classe que representa o Modelo dos dados.
 
 Obs.: A interface específica herda todas as assinaturas dos métodos que estão em `IRepository`. Também podemos implementar novos métodos que serão exibidos apenas nessa interface específica.
 
 
-```C#
-using APICatalogo.Models;
-
-namespace APICatalogo.Repositories;
-
-public interface IProdutoRepository : IRepository<Produto>
-{
-	//Assinatura de método presente apenas nessa interface
-    IEnumerable<Produto> GetProdutoPorCategoria(int id);
-}
-```
-
-
-Na classe concreta que irá representar o repositório devemos herdar da classe genérica `Repository` e implementar a interface específica:
+### 4-Implementação específica
+Implementa a lógica específica para cada entidade
 
 ```C#
-using APICatalogo.Context;
-using APICatalogo.Models;
-
-namespace APICatalogo.Repositories;
-
 public class ProdutoRepository : Repository<Produto>, IProdutoRepository
 {
-
-    public ProdutoRepository(AppDbContext context) : base(context)
-    {}
-
+    public ProdutoRepository(AppDbContext context) : base(context) { }
+    
     public IEnumerable<Produto> GetProdutoPorCategoria(int id)
     {
         return GetAll().Where(c => c.CategoriaId == id);
     }
 }
 ```
+**Pontos-chave:**
+- Herda a implementação genérica
+- Implementa a interface específica
+- Pode acessar o contexto através de `_context`
 
+Na classe concreta que irá representar o repositório devemos herdar da classe genérica `Repository` e implementar a interface específica:
+
+### 5-configuração no `Program.cs`
+
+```C#
+//Registro do Repository genérico para podet acessar o banco por ele
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+```
