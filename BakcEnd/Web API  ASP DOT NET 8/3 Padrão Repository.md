@@ -99,3 +99,146 @@ builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 ```
 
 
+# Repositório Genérico
+
+Cria uma `interface genérica` contendo o contrato que define métodos genéricos que a `classe concreta` deverá implementar
+
+## Abordagem hibrida
+<mark style="background-color: #fff88f; color: black">Combina repositórios genéricos</mark> para operações de <mark style="background-color: #fff88f; color: black">acesso a dados comuns</mark> e <mark style="background-color: #fff88f; color: black">repositórios específicos</mark> quando <mark style="background-color: #fff88f; color: black">funcionalidades personalizadas</mark> são necessárias para entidades específicas.
+
+Lógica de implementação:
+- Criar um <span style="color:rgb(107, 255, 174)">Repositório Genérico </span>para <span style="color:rgb(107, 255, 174)">operações</span> CRUD <span style="color:rgb(107, 255, 174)">comuns</span> usadas
+- Criar um <span style="color:rgb(255, 255, 0)">Repositório Específico</span> para <span style="color:rgb(255, 255, 0)">operações</span> <span style="color:rgb(255, 255, 0)">específicas</span> para cada entidade
+- <span style="color:rgb(254, 0, 65)">Herdar o Repositório Específico do Repositório Genérico</span> 
+
+## Implementação
+
+Criar a interface genérica que irá conter a assinatura dos métodos que serão compartilhados entres as classes:
+
+```C#
+using System.Linq.Expressions;
+
+namespace APICatalogo.Repositories;
+
+//T representa o tipo do repositório(classe) a ser implementado
+//Essa interface é herdada pelos repositórios específicos
+public interface IRepository<T>
+{
+    IEnumerable<T> GetAll();
+
+    //Expressio -> Representa uma função Lambda
+    //Func<T, bool> -> Delegate que representa uma função lambda que recebe um obj do tipo T e reotrna um bool 
+    //predicate -> O critério que será usado para filtrar
+    T? Get(Expression<Func<T, bool>> predicate);
+
+    T Create(T entity);
+
+    T Put(T entity);
+    T Delete(T entity);
+}
+```
+
+
+Crio a classe genérica que implementa a interface:
+
+```C#
+namespace APICatalogo.Repositories;
+
+/*
+    - Repository é uma classe genérica que implementa uma interface Genérica
+    - where T : class -> restrição para garantir que o Tipo T seja uma classe
+ */
+public class Repository<T> : IRepository<T> where T : class
+{
+    protected readonly AppDbContext _context;
+
+    public Repository(AppDbContext contex)
+    {
+        _context = contex;
+    }
+
+    public IEnumerable<T> GetAll()
+    {
+        //Método Set é utilizado para acessar uma tabela ou coleção
+        return _context.Set<T>().ToList();
+    }
+
+    public T? Get(Expression<Func<T, bool>> predicate)
+    {
+        return _context.Set<T>().FirstOrDefault(predicate);
+    }
+
+    public T Create(T entity)
+    {
+        _context.Set<T>().Add(entity);
+        _context.SaveChanges();
+        return entity; 
+    }
+
+    public T Put(T entity)
+    {
+        _context.Set<T>().Update(entity);
+        _context.SaveChanges(); 
+
+        return entity;
+    }
+
+    public T Delete(T entity)
+    {
+        _context.Set<T>().Remove(entity);
+
+        _context.SaveChanges();
+
+        return entity;
+    }
+}
+```
+
+
+Na classe `Program.cs` adiciono no container de injeção de dependência a classe `Repository`:
+
+```C#
+//Registro do Repository genérico para podet acessar o banco por ele
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+```
+
+
+Na interface especifica do repositorio, herdo a interface genérica `IRepository` passando como tipo a classe que representa o Modelo dos dados:
+
+Obs.: A interface específica herda todas as assinaturas dos métodos que estão em `IRepository`. Também podemos implementar novos métodos que serão exibidos apenas nessa interface específica.
+
+
+```C#
+using APICatalogo.Models;
+
+namespace APICatalogo.Repositories;
+
+public interface IProdutoRepository : IRepository<Produto>
+{
+	//Assinatura de método presente apenas nessa interface
+    IEnumerable<Produto> GetProdutoPorCategoria(int id);
+}
+```
+
+
+Na classe concreta que irá representar o repositório devemos herdar da classe genérica `Repository` e implementar a interface específica:
+
+```C#
+using APICatalogo.Context;
+using APICatalogo.Models;
+
+namespace APICatalogo.Repositories;
+
+public class ProdutoRepository : Repository<Produto>, IProdutoRepository
+{
+
+    public ProdutoRepository(AppDbContext context) : base(context)
+    {}
+
+    public IEnumerable<Produto> GetProdutoPorCategoria(int id)
+    {
+        return GetAll().Where(c => c.CategoriaId == id);
+    }
+}
+```
+

@@ -16,21 +16,24 @@
                 "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3 Padrão Repository"
             }
           },
           {
-            "id": "610ed6b940579bb0",
+            "id": "c5ab0f5fb98af2fe",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Padrão Repository.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "Padrão Repository"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +53,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -65,7 +70,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
             }
           },
           {
@@ -73,15 +80,19 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           },
           {
-            "id": "c590e1d39210f442",
+            "id": "69b8af7df799269a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
         ],
@@ -105,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Padrão Repository.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 3 Padrão Repository"
             }
           },
           {
@@ -122,10 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Padrão Repository.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 3 Padrão Repository"
             }
           },
           {
@@ -136,7 +151,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -145,8 +162,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Padrão Repository.md"
-              }
+                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 3 Padrão Repository"
             }
           },
           {
@@ -154,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -175,9 +196,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "610ed6b940579bb0",
+  "active": "f534cb6cb180a986",
   "lastOpenFiles": [
+    "Projetos/Projeto Tracbel.md",
     "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
+    "Projetos/Projetos.md",
+    "Projetos",
+    "Sem título.md",
     "Excalidraw/Padrão Repository.md",
     "BakcEnd/Web API  ASP DOT NET 8/2.2 Filtro de Exceções.md",
     "BakcEnd/Web API  ASP DOT NET 8/2.1 Logging.md",
@@ -202,7 +227,6 @@
     "Vault.md",
     "Arquivos/Imagens/Imagens.md",
     "Arquivos/Imagens",
-    "Sem título.md",
     "Pasted image 20240822212201.png",
     "Arquivos/Imagens/Pasted image 20240822210252.png",
     "Pasted image 20240822205857.png",
