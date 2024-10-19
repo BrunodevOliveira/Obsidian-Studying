@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/3.1 Padrão Unit of Work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Padrão Repository"
+              "title": "3.1 Padrão Unit of Work"
             }
           },
           {
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "69b8af7df799269a",
+            "id": "59430485be338bd1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,9 @@
   },
   "active": "f534cb6cb180a986",
   "lastOpenFiles": [
-    "Projetos/Projeto Tracbel.md",
     "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
+    "BakcEnd/Web API  ASP DOT NET 8/3.1 Padrão Unit of Work.md",
+    "Projetos/Projeto Tracbel.md",
     "Projetos/Projetos.md",
     "Projetos",
     "Sem título.md",

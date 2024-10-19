@@ -248,3 +248,5 @@ Na classe concreta que irá representar o repositório devemos herdar da classe 
 //Registro do Repository genérico para podet acessar o banco por ele
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 ```
+
+
