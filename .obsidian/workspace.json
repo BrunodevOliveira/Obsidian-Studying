@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/3.1 Padrão Unit of Work.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/4-DTO,AutoMapper, HttpPatch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 Padrão Unit of Work"
+              "title": "4-DTO,AutoMapper, HttpPatch"
             }
           },
           {
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "27b0bdbdee32b22a",
+            "id": "9b13051ed7e42369",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,9 @@
   },
   "active": "f534cb6cb180a986",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
     "BakcEnd/Web API  ASP DOT NET 8/3.1 Padrão Unit of Work.md",
+    "BakcEnd/Web API  ASP DOT NET 8/4-DTO,AutoMapper, HttpPatch.md",
+    "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
     "Projetos/Projeto Tracbel.md",
     "Projetos/Projetos.md",
     "Projetos",
