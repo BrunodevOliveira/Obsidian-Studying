@@ -93,7 +93,134 @@
     "type": "excalidrawlib",
     "version": 2,
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.3.0",
-    "libraryItems": []
+    "libraryItems": [
+      {
+        "id": "_ylsckEN8lkZIeOn3F4FD",
+        "status": "unpublished",
+        "elements": [
+          {
+            "type": "rectangle",
+            "version": 169,
+            "versionNonce": 638148580,
+            "index": "a0",
+            "isDeleted": false,
+            "id": "UNpCJxiGZGRR0hJ5Ftmid",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "angle": 0,
+            "x": -688.0421983037519,
+            "y": -202.5204315185547,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "width": 293.67351544242376,
+            "height": 261.35096825800906,
+            "seed": 497240668,
+            "groupIds": [
+              "0eNS2MXxiYtD1IGsFi6YO"
+            ],
+            "frameId": null,
+            "roundness": {
+              "type": 3
+            },
+            "boundElements": [],
+            "updated": 1729726263242,
+            "link": null,
+            "locked": false
+          },
+          {
+            "type": "line",
+            "version": 166,
+            "versionNonce": 564658268,
+            "index": "a1",
+            "isDeleted": false,
+            "id": "VVk10QWbuuXAQSjelVKYX",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "angle": 0,
+            "x": -688.0421983037519,
+            "y": -156.3453677876002,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "width": 289.0559498961572,
+            "height": 0,
+            "seed": 105272284,
+            "groupIds": [
+              "0eNS2MXxiYtD1IGsFi6YO"
+            ],
+            "frameId": null,
+            "roundness": {
+              "type": 2
+            },
+            "boundElements": [],
+            "updated": 1729726263242,
+            "link": null,
+            "locked": false,
+            "startBinding": null,
+            "endBinding": null,
+            "lastCommittedPoint": null,
+            "startArrowhead": null,
+            "endArrowhead": null,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                289.0559498961572,
+                0
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "version": 156,
+            "versionNonce": 756794212,
+            "index": "a2",
+            "isDeleted": false,
+            "id": "3H9PDl9g",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "angle": 0,
+            "x": -593.0754846689128,
+            "y": -190.02135976080723,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "width": 103.08284146989459,
+            "height": 26.775417745328173,
+            "seed": 108502756,
+            "groupIds": [
+              "0eNS2MXxiYtD1IGsFi6YO"
+            ],
+            "frameId": null,
+            "roundness": null,
+            "boundElements": [],
+            "updated": 1729726263242,
+            "link": null,
+            "locked": false,
+            "fontSize": 21.42033419626254,
+            "fontFamily": 5,
+            "text": "PagedList",
+            "rawText": "PagedList",
+            "textAlign": "left",
+            "verticalAlign": "top",
+            "containerId": null,
+            "originalText": "PagedList",
+            "autoResize": true,
+            "lineHeight": 1.25
+          }
+        ],
+        "created": 1729726269176
+      }
+    ]
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,

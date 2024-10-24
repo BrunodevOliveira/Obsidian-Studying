@@ -13,24 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/5-HttpPatch.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/6-Paginação,Filtro,Ordenação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-HttpPatch"
+              "title": "6-Paginação,Filtro,Ordenação"
             }
           },
           {
-            "id": "c5ab0f5fb98af2fe",
+            "id": "0e6e8183bd348763",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Padrão Repository.md"
+                "file": "Excalidraw/Paginação.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Padrão Repository"
+              "title": "Paginação"
             }
           }
         ]
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "1fc71a445a3ffb42",
+            "id": "cc539b245a7c2a41",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,12 @@
   },
   "active": "f534cb6cb180a986",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/4-DTO,AutoMapper.md",
+    "Arquivos/Imagens/Pasted image 20241023211012.png",
+    "Excalidraw/Paginação.md",
+    "Arquivos/Imagens/Pasted image 20241023084217.png",
     "BakcEnd/Web API  ASP DOT NET 8/5-HttpPatch.md",
+    "BakcEnd/Web API  ASP DOT NET 8/6-Paginação,Filtro,Ordenação.md",
+    "BakcEnd/Web API  ASP DOT NET 8/4-DTO,AutoMapper.md",
     "BakcEnd/Web API  ASP DOT NET 8/3.1 Padrão Unit of Work.md",
     "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
     "Projetos/Projeto Tracbel.md",
@@ -227,15 +231,12 @@
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
     "Arquivos/Arquivos.md",
     "Arquivos",
-    "Vault.md",
-    "Arquivos/Imagens/Imagens.md",
     "Arquivos/Imagens",
     "Pasted image 20240822212201.png",
     "Arquivos/Imagens/Pasted image 20240822210252.png",
     "Pasted image 20240822205857.png",
     "Arquivos/Imagens/Pasted image 20240822212824.png",
     "Pasted image 20240822204028.png",
-    "BakcEnd/DDD/Curso-YT/teste marcação.md",
     "Tags",
     "Excalidraw",
     "BakcEnd/DDD/Curso-YT",
