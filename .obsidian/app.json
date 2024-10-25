@@ -1,5 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Arquivos/Imagens",
-  "livePreview": true
+  "livePreview": true,
+  "showLineNumber": false,
+  "readableLineLength": false
 }
