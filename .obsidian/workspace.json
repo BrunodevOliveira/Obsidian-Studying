@@ -22,19 +22,18 @@
             }
           },
           {
-            "id": "478fc0ab1432a83f",
+            "id": "6949d37068d6f25f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-24 21.45.17.excalidraw.md"
+                "file": "Excalidraw/Assincronismo.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-24 21.45.17.excalidraw"
+              "title": "Assincronismo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +86,7 @@
             }
           },
           {
-            "id": "cd78bcd415195265",
+            "id": "c820c346b36d5c4e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -197,9 +196,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "478fc0ab1432a83f",
+  "active": "f534cb6cb180a986",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-10-24 21.45.17.excalidraw.md",
+    "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
+    "Arquivos/Imagens/Pasted image 20241029205047.png",
+    "Arquivos/Imagens/Pasted image 20241029204917.png",
+    "Excalidraw/Assincronismo.md",
     "BakcEnd/Web API  ASP DOT NET 8/6-Paginação,Filtro,Ordenação.md",
     "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "Arquivos/Imagens/Pasted image 20241024211402.png",
@@ -231,14 +233,11 @@
     "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Imagens/Agregação.png",
     "Excalidraw/Introdução.excalidraw.md",
-    "BakcEnd/DDD/Curso-YT/3-VisaoTatica.md",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
     "Arquivos",
     "Arquivos/Imagens",
     "Pasted image 20240822212201.png",
-    "Arquivos/Imagens/Pasted image 20240822210252.png",
-    "Pasted image 20240822205857.png",
     "Tags",
     "Excalidraw",
     "BakcEnd/DDD/Curso-YT",
