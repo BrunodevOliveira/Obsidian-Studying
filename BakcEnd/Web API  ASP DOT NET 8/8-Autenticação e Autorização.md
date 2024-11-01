@@ -97,7 +97,7 @@ Configurar o Identity usando o MySQL para armazenar nome, senha e dados do usuá
 
 O Identity vai ser usado para poder <mark style="background-color: #fff88f; color: black">autenticar o usuário e obter informações deste usuário para gerar o token</mark>
 
-## Configurando o projeto para utilizar Identity
+## 1-Configurando o projeto para utilizar Identity
 
 1- Alterar a classe de contexto `AppDbContext.cs` para herdar de `IdentityDbContext`
 - Antes de herdar, precisamos instalar o seguinte pacote -> `Microsoft.AspNetCore.Identity.EntityFrameworkCore`
@@ -119,7 +119,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>() //IdentityUser = Usu�
 
 
 
-## Implementação JWT Token
+## 2-Implementação JWT Token
 
 1- Habilitar e configurar a autenticação JWT Bearer
 - Verificar se já está Adicionado o pacote `Microsoft.AspNetCore.Authentication.JwtBearer`
@@ -164,6 +164,51 @@ builder.Services.AddAuthentication(options =>
 ```
 
 
+1.1 - Criar a classe `ApplicationUser` e ajustar o código para utilizar RefresToken
+
+Em Models Crio a classe `ApplicationUser` :
+```C#
+namespace APICatalogo.Models;  
+  
+public class ApplicationUser : IdentityUser  
+{  
+    public string? RefreshToken { get; set; }  
+    public DateTime RefreshTokenExpiryTime { get; set; }  
+}
+```
+
+Ajustar a classe AppDbContext para utilizar `ApplicationUser` como um tipo genérico de `IdenttityDbContext`:
+```C#
+public class  AppDbContext : IdentityDbContext<ApplicationUser> 
+{   
+	public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)  
+	{    }  
+
+    public DbSet<Categoria>? Categorias { get; set; }  
+    public DbSet<Produto>? Produtos { get; set; }  
+	
+	protected override void OnModelCreating(ModelBuilder builder)  
+	{        base.OnModelCreating(builder);    }
+}
+```
+
+Ajustar o código da classe `program.cs` que configura o Identity no contexto de injeção de dependência
+```C#
+//Configuração do Indentity  
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>() //IdentityUser/ApplicationUser = Usuário | IdentityRole = funções do usuário  
+    .AddEntityFrameworkStores<AppDbContext>() //Adiciono Indentity para armazenar os dados tendo como base meu contexto  
+    .AddDefaultTokenProviders(); //tokens para lidar com a autenticação
+```
+
+
+1.2 - Criando DTOs para gerenciar o login, o registro e o token
+
+
+
+Após essa mudanças nos arquivos, <span style="color:rgb(255, 255, 0)">aplicamos um Migrations</span>:
+- `dotnet ef migrations add AjusteApplicationUser`
+- `dotnet ef database update`
+
 2- Criar um serviço `ItokenService`
 - Gerar um Token JWT
 - Gerar o RefreshToken (permite obter um novo token sem fazer login)
@@ -174,3 +219,4 @@ builder.Services.AddAuthentication(options =>
 - Register
 - Refreshtoken
 - Revoke
+ 
