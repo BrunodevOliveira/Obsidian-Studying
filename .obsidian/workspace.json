@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "5260b9f28b632c6a",
+            "id": "2dc571a699f75d4b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,9 @@
   },
   "active": "f534cb6cb180a986",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
+    "BakcEnd/Web API  ASP DOT NET 8/8.1-Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
+    "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
     "Arquivos/Imagens/Pasted image 20241029205047.png",
     "Arquivos/Imagens/Pasted image 20241029204917.png",
@@ -231,7 +232,6 @@
     "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
     "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
-    "BakcEnd/DDD/Curso-YT/1-Conceito Geral.md",
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
