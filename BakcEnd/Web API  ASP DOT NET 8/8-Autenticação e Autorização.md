@@ -90,12 +90,11 @@ No arquivo do projeto `APICatalogo.csproj` é adicionado o ID (UserSecretsId):
 
 
 # Identity
+- Usar o Identity para criar as tabelas para persistência das informações do usuário com as informações de login
 
-Usar o Identity para criar as tabelas para persistência das informações do usuário com as informações de login
+- Configurar o Identity usando o MySQL para armazenar nome, senha e dados do usuário
 
-Configurar o Identity usando o MySQL para armazenar nome, senha e dados do usuário
-
-O Identity vai ser usado para poder <mark style="background-color: #fff88f; color: black">autenticar o usuário e obter informações deste usuário para gerar o token</mark>
+- O Identity vai ser usado para poder <mark style="background-color: #fff88f; color: black">autenticar o usuário e obter informações deste usuário para gerar o token</mark>
 
 ## 1-Configurando o projeto para utilizar Identity
 
@@ -117,11 +116,9 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>() //IdentityUser = Usu�
 - Gerar o script de migração -><span style="color:rgb(255, 255, 0)"><span style="color:rgb(255, 255, 0)"> <span style="color:rgb(255, 255, 0)">(Dentro da pasta do projeto)</span></span> </span>`dotnet ef migrations add CriaTabelasIdentity --verbose`
 - Aplicar o script de migração gerado -><span style="color:rgb(255, 255, 0)"><span style="color:rgb(255, 255, 0)"> <span style="color:rgb(255, 255, 0)">(Dentro da pasta do projeto)</span></span> </span>`dotnet ef database update --verbose`
 
-
-
 ## 2-Implementação JWT Token
 
-1- Habilitar e configurar a autenticação JWT Bearer
+### 1- Habilitar e configurar a autenticação JWT Bearer
 - Verificar se já está Adicionado o pacote `Microsoft.AspNetCore.Authentication.JwtBearer`
 - Definir em um locar seguro (appsettings.json) -> chave secreta, a audiência, o emissor e o tempo de vida
 ```json
@@ -236,7 +233,7 @@ public class ResponseDTO
 ```
 
 
-2- Criar um serviço `ItokenService`
+### 2- Criar um serviço `ItokenService`
 
 Responsabilidades:
 - Gerar um Token JWT
@@ -343,7 +340,7 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 
 
 
-3- Criar controller AuthController com os endpoints para:
+### 3- Criar controller AuthController com os endpoints para:
 - Login
 - Register
 - Refreshtoken
@@ -472,6 +469,7 @@ public class AuthController : ControllerBase
     }}
 ```
 
+### 4- Configuração do `Swagger` para acesso via token
 Em `Program.cs` substituo a configuração padrão do swagger por esta que possibilita testar os endpoints protegidos por Token
 ```C#
 //Configuração antiga a ser substituida -> builder.Services.AddSwaggerGen()
@@ -500,3 +498,129 @@ builder.Services.AddSwaggerGen(c =>
             },            new string[] {}  
         }    });});
 ```
+
+## 3-Autorização baseada em políticas com JWT
+
+- Permite definir regras personalizadas para controlar o acesso a recursos
+- Podem ser aplicadas em controladores, métodos Action ou a nível de aplicativo
+- A ideia por trás das políticas é centralizar e organizar a lógica de autorização, tornando-a mais fácil de gerenciar e entender
+
+### Funcionamento
+- Ao receber o request, a ASP.NET Core verifica o token JWT
+- Com base nas informações do token, as políticas de autorização são aplicadas
+- Se o usuário atender aos requisitos da política, ele terá acesso ao recurso solicitado
+
+### Configuração e aplicação de politica
+
+- Usar `Claims` do usuário atribuídas na geração do token JWT
+- Usar a informações como e-mail, nome e perfil ou função (Role) do usuário.
+- Aproveitar as tabelas do Identity `aspnetroles` e `aspnetuerroles`
+- Permitir a criação de Role e também atribuir um usuário a uma Role
+	- Adicionar dois endpoints: `CreateRole` e `AddUserToRole`
+- Criar e configurar políticas com base nas Claims atribuídas ao token JWT
+- Aplicar essas políticas aos endpoints da nossa API
+
+#### Criação dos Endpoints `CreateRole` e `AddUserToRole`:
+
+```C#
+[HttpPost]  
+[Route("CreateRole")]  
+public async Task<IActionResult> CreateRole(string roleName)  
+{  
+    var roleExist = await _roleManager.RoleExistsAsync(roleName);  
+  
+    if (!roleExist)  
+    {        var roleResult = await _roleManager.CreateAsync(new IdentityRole(roleName));  
+  
+        if (roleResult.Succeeded)  
+        {            _logger.LogInformation(1, "Role created successfully");  
+            return StatusCode(StatusCodes.Status200OK,   
+			new ResponseDTO() {Status = "Success", Message = $"Role {roleName} created successfully!"});  
+		}else  
+        {  
+            _logger.LogInformation(2, "Error");  
+            return StatusCode(StatusCodes.Status400BadRequest,  
+                new ResponseDTO() {Status = "Error", Message = $"Issue adding the new {roleName} role"});  
+        }    }   
+         return StatusCode(StatusCodes.Status400BadRequest,  
+        new ResponseDTO() {Status = "Error", Message = $"Role {roleName} already exists!"});  
+}
+```
+
+```C#
+[HttpPost]  
+[Route("AddUserToRole")]  
+public async Task<IActionResult> AddUserToRole(string email, string roleName)  
+{  
+    var user = await _userManager.FindByEmailAsync(email);  
+  
+    if (user != null)  
+    {        var result = await _userManager.AddToRoleAsync(user, roleName);  
+  
+        if (result.Succeeded)  
+        {            _logger.LogInformation(1, $"User {user.Email} added to role {roleName}");  
+            return StatusCode(StatusCodes.Status200OK,   
+			new ResponseDTO() {Status = "Success", Message = $"User {user.Email} added to role {roleName}"});  
+        } else  
+        {  
+            _logger.LogInformation(2, $"Error: Unable to add user {user.Email} to role {roleName}");  
+            return StatusCode(StatusCodes.Status400BadRequest, new ResponseDTO() { Status = "Error", Message =   
+				$"Error: Unable to add user {user.Email} to role {roleName}"});  
+        }    }    
+        return BadRequest(new { error = "Unable to find user" });  
+}
+```
+
+#### Configurando Autorização
+- Aqui definimos regras para controlar o acesso a recursos
+- As políticas são declarativas e podem ser aplicadas em `controladores` `métodos actions` ou a `nível de aplicativo`
+```C#
+//Program.cs
+builder.Services.AddAuthorization(options =>  
+{     
+//RequireRole -> Exige que o usuário tenha uma determinada Role para acessar o recurso  
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));  
+    //RequireClaim -> Exige que o usuário tenha uma Claim específica para acessar um recurso protegido   
+	options.AddPolicy("SuperAdminOnly", policy =>   
+        policy.RequireRole("Admin").RequireClaim("id", "bruno"));  
+        options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));  
+    //RequireAssertion -> Permite definir uma expressão lambda com uma condição customizada para autorização  
+    options.AddPolicy("ExclusivePolicyOnly", policy =>   
+        policy.RequireAssertion(context =>   
+            context.User.HasClaim(claim => claim.Type == "id" && claim.Value == "bruno")   
+                                           || context.User.IsInRole("SuperAdmin")));  
+});
+```
+
+```C#
+namespace APICatalogo.Controllers;
+Login() {
+	var authClaims = new List<Claim>  
+	{  
+	    new Claim(ClaimTypes.Name, user.UserName!),  
+	    new Claim(ClaimTypes.Email, user.Email!),  
+	    new Claim("id", user.UserName!), //Adicionado para política "ExclusivePolicyOnly"
+	    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),//Gera um Id para o token  
+	};
+}
+
+```
+
+
+#### Utilização
+```C#
+[HttpPost]  
+[Route("revoke/{username}")]  
+[Authorize(Policy = "ExclusiveOnly")] //Somente um usuário autenticado e autorizado poderá acessar essa rota  
+public async Task<IActionResult> Revoke(string username)  
+{  
+    var user = await _userManager.FindByNameAsync(username);  
+    if(user is null) return BadRequest("Invalid user name");  
+        user.RefreshToken = null;  
+    await _userManager.UpdateAsync(user);  
+    return NoContent();  
+}
+```
+
+
+

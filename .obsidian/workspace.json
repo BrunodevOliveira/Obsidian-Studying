@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "2dc571a699f75d4b",
+            "id": "f33cd1354af1e63a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -116,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 3 Padrão Repository"
+              "title": "Backlinks"
             }
           },
           {
@@ -162,10 +161,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/3 Padrão Repository.md"
+                "file": "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3 Padrão Repository"
+              "title": "Sumário de 8-Autenticação e Autorização"
             }
           },
           {
@@ -196,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f534cb6cb180a986",
+  "active": "35a791293b31bba9",
   "lastOpenFiles": [
     "BakcEnd/Web API  ASP DOT NET 8/8.1-Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
