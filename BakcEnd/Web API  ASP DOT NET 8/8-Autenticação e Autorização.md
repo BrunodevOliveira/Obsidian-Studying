@@ -4,7 +4,7 @@ Usa **tokens criptografados** para permitir o acesso aos recursos de uma Web API
 > [!NOTE]
 > Para gerar um token JWT não precisamos de um banco de dados, mas apenas de informações do usuário para criação do token
 
-## Token JWT
+# Token JWT
 É formado por 3 partes
 - Header -> Contém o tipo de token e a criptografias usada (HMAC ou RSA)
 - Payload -> Contém os 'pedidos'. São declarações ou claims associadas ao usuário do token
@@ -13,23 +13,10 @@ Usa **tokens criptografados** para permitir o acesso aos recursos de uma Web API
 > [!NOTE]
 > Para gerar a ssinatura usamos o Header e o Payload codificando-os e a seguir assinamos usando o algoritmo definido
 
-## Gerenciando tokens JWT no ambiente de Dev
-`dotnet user-jwts create` -> Gera um token JWT com um Id Definido
-- Registra automaticamente um conjunto de números secretos `<UserSecretId>` exigidos pelo **Secret Manager** no arquivo de projeto `.csproj` e define as configurações de autenticação no arquivo appsettings.json para o desenvolvimento.
-
-`dotnet user-jwts list` -> Lista todos os tokens JWT emitidos
-
-`dotnet user-jwts key` -> Obtem a chave de emissão do token JWT atual
-
-`dotnet user-jwts remove ID` -> Exclui o token JWT emitido pelo seu ID
-
-`dotnet user-jwts clear` -> Limpa todos os tokens emitidos
-
-`dotnet user-jwts key --reset -force` -> Redefine a chave de emissão do token JWT atualmente em uso
-
-`dotnet user-jwts print <id-token> --show-all` -> Exibe todas as informações do token
-
-
+# Gerenciando tokens JWT no ambiente de Dev
+> [!NOTE]
+> Aqui é ensinado a utilizar token JWT sem a necessidade de consulta a um DB para gerar o token.
+> É uma maneira de testar tokens no ambiente de desenvolvimento
 ## Instalação
 1- Instalação do pacote nuget `Microsoft.AspNetCore.Authentication.JwtBearer`
 
@@ -60,7 +47,7 @@ public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get()
 
 4- Abro o terminal dentro do diretório do projeto e executo o comando `dotnet user-jwts create`
 
-Após a execução do comando será gerado uma propriedade `Authentication` no arquivo `appsettings.Development.json`
+- Após a execução do comando será gerado uma propriedade `Authentication` no arquivo `appsettings.Development.json`
 
 ```C#
 "Authentication": {  
@@ -89,12 +76,67 @@ No arquivo do projeto `APICatalogo.csproj` é adicionado o ID (UserSecretsId):
 ```
 
 
+## Comandos básicos
+`dotnet user-jwts create` -> Gera um token JWT com um Id Definido
+- Registra automaticamente um conjunto de números secretos `<UserSecretId>` exigidos pelo **Secret Manager** no arquivo de projeto `.csproj` e define as configurações de autenticação no arquivo appsettings.json para o desenvolvimento.
+
+`dotnet user-jwts list` -> Lista todos os tokens JWT emitidos
+
+`dotnet user-jwts key` -> Obtem a chave de emissão do token JWT atual
+
+`dotnet user-jwts remove ID` -> Exclui o token JWT emitido pelo seu ID
+
+`dotnet user-jwts clear` -> Limpa todos os tokens emitidos
+
+`dotnet user-jwts key --reset -force` -> Redefine a chave de emissão do token JWT atualmente em uso
+
+`dotnet user-jwts print <id-token> --show-all` -> Exibe todas as informações do token
+
+
+
+
+
 # Identity
+
 - Usar o Identity para criar as tabelas para persistência das informações do usuário com as informações de login
 
 - Configurar o Identity usando o MySQL para armazenar nome, senha e dados do usuário
 
 - O Identity vai ser usado para poder <mark style="background-color: #fff88f; color: black">autenticar o usuário e obter informações deste usuário para gerar o token</mark>
+
+Tabelas geradas pelo Identity:
+
+**AspNetUsers**
+
+- Armazena informações dos usuários como username, email, senha (hash), dados de perfil
+- Mantém status de confirmação de email e telefone
+- Controla bloqueios de conta
+
+**AspNetRoles**
+
+- Armazena as funções/papéis disponíveis no sistema
+- Permite criar hierarquias de permissões
+- Facilita o controle de acesso baseado em roles
+
+**AspNetUserRoles**
+
+- Tabela de relacionamento entre usuários e roles
+- Estabelece quais funções cada usuário possui
+
+**AspNetUserClaims**
+
+- Armazena claims (declarações) adicionais dos usuários
+- Permite incluir informações customizadas como preferências
+
+**AspNetUserLogins**
+
+- Registra logins externos (Google, Facebook, etc)
+- Mantém vínculo entre contas locais e externas
+
+**AspNetUserTokens**
+
+- Armazena tokens para reset de senha, confirmação de email
+- Mantém tokens de autenticação two-factor
 
 ## 1-Configurando o projeto para utilizar Identity
 

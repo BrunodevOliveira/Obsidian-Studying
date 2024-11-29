@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "f33cd1354af1e63a",
+            "id": "2c3531aba483246b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5110321044922
+    "width": 333.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -156,6 +157,16 @@
             }
           },
           {
+            "id": "35a791293b31bba9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "3c15f48036f27124",
             "type": "leaf",
             "state": {
@@ -166,23 +177,13 @@
               "icon": "lucide-list",
               "title": "Sumário de 8-Autenticação e Autorização"
             }
-          },
-          {
-            "id": "35a791293b31bba9",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
