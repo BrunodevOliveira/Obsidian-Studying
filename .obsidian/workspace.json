@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-Autenticação e Autorização"
+              "title": "9- CORS e Rate Limiting"
             }
           },
           {
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "2c3531aba483246b",
+            "id": "a600812c12aeafed",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5110321044922,
-    "collapsed": true
+    "width": 333.5110321044922
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -172,10 +171,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md"
+                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de 8-Autenticação e Autorização"
+              "title": "Sumário de 9- CORS e Rate Limiting"
             }
           }
         ],
@@ -198,8 +197,8 @@
   },
   "active": "35a791293b31bba9",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/8.1-Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
+    "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
     "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
     "Arquivos/Imagens/Pasted image 20241029205047.png",

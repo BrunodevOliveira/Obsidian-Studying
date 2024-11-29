@@ -138,6 +138,19 @@ Tabelas geradas pelo Identity:
 - Armazena tokens para reset de senha, confirmação de email
 - Mantém tokens de autenticação two-factor
 
+## Senha usuários
+```json
+{
+  "userName": "bruno",
+  "email": "bruno@gmail.com",
+  "password": "Numsev#2023"
+},
+{
+  "userName": "maria",
+  "email": "maria@yahoo.com",
+  "password": "Numsev#2023"
+}
+```
 ## 1-Configurando o projeto para utilizar Identity
 
 1- Alterar a classe de contexto `AppDbContext.cs` para herdar de `IdentityDbContext`
@@ -380,8 +393,6 @@ Registrar o serviço no container DI na classe Program
 builder.Services.AddScoped<ITokenService, TokenService>();
 ```
 
-
-
 ### 3- Criar controller AuthController com os endpoints para:
 - Login
 - Register
@@ -616,6 +627,15 @@ public async Task<IActionResult> AddUserToRole(string email, string roleName)
 #### Configurando Autorização
 - Aqui definimos regras para controlar o acesso a recursos
 - As políticas são declarativas e podem ser aplicadas em `controladores` `métodos actions` ou a `nível de aplicativo`
+- **Roles** e **Claims** são dois <mark style="background-color: #fff88f; color: black">mecanismos diferentes de autorização</mark> no ASP.NET Core, cada um com seus propósitos específicos.
+- Roles
+	- São mais simples e diretos, <span style="color:rgb(107, 255, 174)">representando funções ou cargos do usuário</span> no sistema[1](https://macoratti.net/23/02/aspc_rolebasedauth1.htm)
+	- Ideais para cenários onde a autorização é baseada em grupos bem definidos de permissões[2](https://dotnettutorials.net/lesson/role-based-authorization-vs-claims-based-authorization-in-asp-net-core/)
+- Claims
+	- São mais <span style="color:rgb(107, 255, 174)">flexíveis e representam informações específicas</span> sobre o usuário[1](https://balta.io/blog/aspnet-core-autenticacao-autorizacao)
+	- Permitem<span style="color:rgb(107, 255, 174)"> autorizações mais granulares baseadas em atributos do usuário</span>[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
+	- Podem conter diferentes tipos de dados (string, integer, datetime, etc)[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
+	- Uma Role é tecnicamente implementada como um tipo específico de Claim[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
 ```C#
 //Program.cs
 builder.Services.AddAuthorization(options =>  
@@ -625,7 +645,8 @@ builder.Services.AddAuthorization(options =>
     //RequireClaim -> Exige que o usuário tenha uma Claim específica para acessar um recurso protegido   
 	options.AddPolicy("SuperAdminOnly", policy =>   
         policy.RequireRole("Admin").RequireClaim("id", "bruno"));  
-        options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));  
+    
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));  
     //RequireAssertion -> Permite definir uma expressão lambda com uma condição customizada para autorização  
     options.AddPolicy("ExclusivePolicyOnly", policy =>   
         policy.RequireAssertion(context =>   
