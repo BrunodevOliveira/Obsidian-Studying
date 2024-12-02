@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "a600812c12aeafed",
+            "id": "e01313420b269f12",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5110321044922
+    "width": 333.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -170,11 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Sumário de 9- CORS e Rate Limiting"
+              "title": "Sumário"
             }
           }
         ],
