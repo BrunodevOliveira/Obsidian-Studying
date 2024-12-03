@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9- CORS e Rate Limiting"
+              "title": "10- Versionamento de API"
             }
           },
           {
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md"
+                "file": "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de 9- CORS e Rate Limiting"
+              "title": "Sumário de 10- Versionamento de API"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "35a791293b31bba9",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
+    "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md",
+    "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
     "Arquivos/Imagens/Pasted image 20241029205047.png",
@@ -231,7 +232,6 @@
     "BakcEnd/Web API  ASP DOT NET 8",
     "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
     "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
-    "BakcEnd/DDD/Curso-YT/2-Visao Estrategica.md",
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
