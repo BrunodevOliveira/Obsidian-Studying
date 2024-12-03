@@ -218,3 +218,75 @@ public class CategoriasController : ControllerBase
 ### Podemos definir um limitador de taxa global
 - Vai atuar em todos os controladores
 - Nesse caso não precisamos utilizar os atributos `EnableRateLimiting` e `DisableRateLimiting`
+```C#
+builder.Services.AddRateLimiter(options =>  
+{  
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;  
+  
+    options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpcontext =>  
+        RateLimitPartition.GetFixedWindowLimiter(  
+            partitionKey: httpcontext.User.Identity?.Name ?? httpcontext.Request.Headers.Host.ToString(),  
+            factory: partition => new FixedWindowRateLimiterOptions  
+            {  
+                AutoReplenishment = true,  
+                PermitLimit = 2,  
+                QueueLimit = 0,  
+                Window = TimeSpan.FromSeconds(10)  
+            }        )    );});
+```
+
+### Configurando valores no `appsettings`
+
+- `Appsettings` -> receberá os valores que devem ser aplicados no RateLimiting
+
+```json
+{
+	"MyRateLimit" : {  
+	  "PermitLimit": 6,  
+	  "Window": 9,  
+	  "ReplenishmentPeriod" : 1,  
+	  "QueueLimit": 2,  
+	  "SegmentsPerWindow": 4,  
+	  "TokenLimit": 8,  
+	  "TokenLimit2": 12,  
+	  "TokenPerPeriod": 4,  
+	  "AutoReplenishment": true  
+	}
+}
+```
+
+- `MyRateLimitOptions` -> Recebe os valores default caso não sejam definidos no `appsettings`
+- Os nomes devem ser iguais aos aplicados no `Appsettings`
+```C#
+public class MyRateLimitOptions  
+{  
+    public const string MyRateLimit = "MyRateLimit";  
+    public int PermitLimit { get; set; } = 5;  
+    public int Window { get; set; } = 10;  
+    public int ReplenishmentPeriod { get; set; } = 2;  
+    public int QueueLimit { get; set; } = 2;  
+    public int SegmentsPerWindow { get; set; } = 8;  
+    public int TokenLimit { get; set; } = 10;   
+public int TokenLimit2 { get; set; } = 20;  
+    public int TokenPerPeriod { get; set; } = 4;  
+    public bool AutoReplenishment { get; set; } = false;  
+}
+```
+
+- `Program.cs` -> Realizo o Bind entre `appsettings` e `MyRateLimitOptions` 
+```C#
+var myOptions = new MyRateLimitOptions();  
+builder.Configuration.GetSection(MyRateLimitOptions.MyRateLimit).Bind(myOptions);  
+  
+builder.Services.AddRateLimiter(rateLimiterOptions =>  
+{  
+    //PErmite 3 requests a cada 10 segundos   
+	rateLimiterOptions.AddFixedWindowLimiter("fixedwindow", options =>  
+    {  
+        options.PermitLimit = myOptions.PermitLimit;//1;  
+        options.Window = TimeSpan.FromSeconds(myOptions.Window);//TimeSpan.FromSeconds(5);  
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;  
+        options.QueueLimit = myOptions.QueueLimit;  
+    });    rateLimiterOptions.RejectionStatusCode = StatusCodes.Status429TooManyRequests;  
+});
+```

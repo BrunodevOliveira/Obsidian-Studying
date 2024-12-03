@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "e01313420b269f12",
+            "id": "54d6336eae5e41e7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -171,9 +171,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md"
+              },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 9- CORS e Rate Limiting"
             }
           }
         ],
