@@ -50,17 +50,22 @@ builder.Services.AddApiVersioning(options =>
 ## Utilizando nos controladores
 
 ### Utilizando URI
+- Define no atributo `Route` a versão da API
 ```C#
 // Exemplo de Controlador com Versionamento por URI 
 [ApiController] 
 [Route("api/v{version:apiVersion}/[controller]")] 
 public class ProductsController : ControllerBase { 
-[HttpGet] public IActionResult GetProducts() { 
-	return Ok(new[] { new { Id = 1, Name = "Product A" }, new { Id = 2, Name = "Product B" } }); 
-} }
+	[HttpGet]
+	[APIVersion("2.0")] //define qual versão será utilizada
+	public IActionResult GetProducts() { 
+		return Ok(new[] { new { Id = 1, Name = "Product A" }, new { Id = 2, Name = "Product B" } }); 
+	} 
+}
 ```
 
 ### Utilizando Query String
+- Define para cada método `Action` qual versão utilizar
 ```C#
 [ApiController]
 [Route("api/[controller]")]
