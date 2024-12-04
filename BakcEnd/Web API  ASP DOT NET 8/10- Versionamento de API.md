@@ -30,3 +30,74 @@ Usar diferentes tipos de mídia para representar versões diferentes de API
 - `Asp.Versioning.Http`
 
 ## Configuração em `Program.cs`
+```C#
+// Adicionar serviços de versionamento 
+builder.Services.AddApiVersioning(options => 
+{ 
+	options.DefaultApiVersion = new ApiVersion(1, 0); 
+	options.AssumeDefaultVersionWhenUnspecified = true; 
+	
+	// Escolher um método de leitura de versão 
+	// options.ApiVersionReader = new QueryStringApiVersionReader("v"); 
+	options.ApiVersionReader = ApiVersionReader.Combine( 
+		new QueryStringApiVersionReader("v"), 
+		new UrlSegmentApiVersionReader(), 
+		new HeaderApiVersionReader("X-API-Version") 
+	); 
+});
+```
+
+## Utilizando nos controladores
+
+### Utilizando URI
+```C#
+// Exemplo de Controlador com Versionamento por URI 
+[ApiController] 
+[Route("api/v{version:apiVersion}/[controller]")] 
+public class ProductsController : ControllerBase { 
+[HttpGet] public IActionResult GetProducts() { 
+	return Ok(new[] { new { Id = 1, Name = "Product A" }, new { Id = 2, Name = "Product B" } }); 
+} }
+```
+
+### Utilizando Query String
+```C#
+[ApiController]
+[Route("api/[controller]")]
+[ApiVersion("1.0")]
+[ApiVersion("2.0")]
+public class UsersController : ControllerBase
+{
+    // Método para a versão 1.0
+    [HttpGet]
+    [MapToApiVersion("1.0")]
+    public IActionResult GetUsersV1()
+    {
+        return Ok(new[] { 
+            new { Id = 1, Name = "John Doe" },
+            new { Id = 2, Name = "Jane Smith" }
+        });
+    }
+
+    // Método para a versão 2.0
+    [HttpGet]
+    [MapToApiVersion("2.0")]
+    public IActionResult GetUsersV2()
+    {
+        return Ok(new[] { 
+            new { 
+                Id = 1, 
+                Name = "John Doe", 
+                Email = "john.doe@example.com",
+                CreatedAt = DateTime.UtcNow 
+            },
+            new { 
+                Id = 2, 
+                Name = "Jane Smith", 
+                Email = "jane.smith@example.com",
+                CreatedAt = DateTime.UtcNow 
+            }
+        });
+    }
+}
+```
