@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md",
+                "file": "BakcEnd/Web API  ASP DOT NET 8/12- Documentação com Swagger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10- Versionamento de API"
+              "title": "12- Documentação com Swagger"
             }
           },
           {
@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "3507628e63b78fa0",
+            "id": "c508e6cf27221389",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md"
+                "file": "BakcEnd/Web API  ASP DOT NET 8/12- Documentação com Swagger.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de 10- Versionamento de API"
+              "title": "Sumário de 12- Documentação com Swagger"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "35a791293b31bba9",
   "lastOpenFiles": [
-    "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
     "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md",
+    "BakcEnd/Web API  ASP DOT NET 8/12- Documentação com Swagger.md",
+    "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
     "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
@@ -231,7 +232,6 @@
     "BakcEnd/Sem título.md",
     "BakcEnd/Web API  ASP DOT NET 8",
     "BakcEnd/DDD/Curso-YT/3.1-Visao tatica.md",
-    "BakcEnd/DDD/Curso-YT/3-Visao Tatica.md",
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
