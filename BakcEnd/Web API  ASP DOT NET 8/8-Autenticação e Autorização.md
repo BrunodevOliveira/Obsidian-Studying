@@ -636,6 +636,11 @@ public async Task<IActionResult> AddUserToRole(string email, string roleName)
 	- Permitem<span style="color:rgb(107, 255, 174)"> autorizações mais granulares baseadas em atributos do usuário</span>[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
 	- Podem conter diferentes tipos de dados (string, integer, datetime, etc)[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
 	- Uma Role é tecnicamente implementada como um tipo específico de Claim[2](http://www.linhadecodigo.com.br/artigo/2884/role-vs-claims.aspx)
+	- <mark style="background-color: #fff88f; color: black">Claims de identidade</mark>
+		- Carregam informações básicas que estarão disponíveis em cada requisição
+		- Utilizado para implementar RefreshToken
+	- Claims de Autorização
+		- Controla acesso a recursos específicos
 ```C#
 //Program.cs
 builder.Services.AddAuthorization(options =>  
