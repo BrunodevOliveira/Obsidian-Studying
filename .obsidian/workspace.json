@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "8-Autenticação e Autorização"
             }
+          },
+          {
+            "id": "3f13e5ca9537d4a5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Entidades.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +88,7 @@
             }
           },
           {
-            "id": "7c6583b134130a46",
+            "id": "da13ee79b0953b19",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -88,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -185,8 +199,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "35a791293b31bba9",
+  "active": "3f13e5ca9537d4a5",
   "lastOpenFiles": [
+    "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
+    "BakcEnd/DotNet/Desafios/APIVendas",
+    "BakcEnd/DotNet/Desafios",
     "Ingles",
     "BakcEnd/Web API  ASP DOT NET 8/14- Clean Architecture.md",
     "BakcEnd/Web API  ASP DOT NET 8/13- Testes unitários - xUnit.md",
@@ -229,9 +246,6 @@
     "Pasted image 20240822212201.png",
     "Tags",
     "Excalidraw",
-    "BakcEnd/DDD/Curso-YT",
-    "BakcEnd/DDD",
-    "BakcEnd/DotNet",
-    "BakcEnd"
+    "BakcEnd/DDD/Curso-YT"
   ]
 }
