@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
+                "file": "BakcEnd/CSharpFundamentals/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SalvarDatasUTC"
+              "title": "Arrays"
             }
           }
         ],
@@ -88,7 +88,7 @@
             }
           },
           {
-            "id": "c39ebc0471058832",
+            "id": "1ae5b0113d1e285e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -97,7 +97,8 @@
               "title": "Spaces"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,6 +201,7 @@
   },
   "active": "35a791293b31bba9",
   "lastOpenFiles": [
+    "BakcEnd/CSharpFundamentals/Arrays.md",
     "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
     "BakcEnd/CSharpFundamentals/DateTime.md",
     "BakcEnd/CSharpFundamentals",
@@ -236,7 +238,6 @@
     "Excalidraw/Padrão Repository.md",
     "BakcEnd/Web API  ASP DOT NET 8/2.2 Filtro de Exceções.md",
     "BakcEnd/Web API  ASP DOT NET 8/2.1 Logging.md",
-    "BakcEnd/Web API  ASP DOT NET 8/2-notepad.md",
     "BakcEnd/Web API  ASP DOT NET 8",
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
