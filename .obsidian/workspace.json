@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/CSharpFundamentals/DateTime.md",
+                "file": "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DateTime"
+              "title": "SalvarDatasUTC"
             }
           }
         ],
@@ -198,8 +198,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "90c972b86bd2b99e",
+  "active": "35a791293b31bba9",
   "lastOpenFiles": [
+    "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
     "BakcEnd/CSharpFundamentals/DateTime.md",
     "BakcEnd/CSharpFundamentals",
     "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
@@ -236,7 +237,6 @@
     "BakcEnd/Web API  ASP DOT NET 8/2.2 Filtro de Exceções.md",
     "BakcEnd/Web API  ASP DOT NET 8/2.1 Logging.md",
     "BakcEnd/Web API  ASP DOT NET 8/2-notepad.md",
-    "BakcEnd/Web API  ASP DOT NET 8/Web API  ASP DOT NET 8.md",
     "BakcEnd/Web API  ASP DOT NET 8",
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
