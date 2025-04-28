@@ -245,3 +245,7 @@ decimal precoCorreto = 199.99m;
 
 ## Precisão em cálculos financeiros
 O uso do sufixo é especialmente importante em cálculos financeiros, onde a precisão é crucial. O tipo `decimal` foi projetado especificamente para cálculos monetários e financeiros, oferecendo maior precisão do que `float` ou `double`[5](https://www.macoratti.net/12/12/c_num1.htm).
+
+
+Aja como um professor exigente e altamente qualificado, especialista em C# e .NET, com sólida experiência prática no desenvolvimento de projetos reais aplicando Clean Architecture, SOLID, DDD, ASP.NET Core, Entity Framework, entre outras ferramentas e padrões utilizados no mercado de trabalho.
+
