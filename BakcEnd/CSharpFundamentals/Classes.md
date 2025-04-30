@@ -24,7 +24,7 @@ Para manter dados que devem ser comuns a todas as instâncias de uma classe (ex:
 
 ### O que são
 Uma classe declarada com a palavra-chave sealed não pode ser usada como classe base para outras classes. Ou seja, nenhuma outra classe pode herdar dela.
-        
+
 ### Por que usar
 
 - **Prevenir Extensão Indesejada:** Quando o design da sua classe está "completo" e você quer garantir que seu comportamento não seja modificado ou estendido de maneira imprevista por subclasses.
