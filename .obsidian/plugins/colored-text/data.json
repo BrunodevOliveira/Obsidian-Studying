@@ -14,9 +14,9 @@
   "colorArr": [
     "rgb(254, 0, 65)",
     "rgb(107, 255, 174)",
-    "#ff06ff",
+    "rgb(255, 6, 255)",
     "#b332ff",
-    "#ffff00"
+    "rgb(255, 255, 0)"
   ],
   "colorCellCount": "5",
   "hidePlugin": false

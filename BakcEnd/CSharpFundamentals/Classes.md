@@ -50,7 +50,7 @@ Permitem que a definição de uma única classe, struct, interface ou método se
 
 ### O que são
 Uma classe marcada como abstract não pode ser instanciada diretamente (new MinhaClasseAbstrata() é proibido). Ela serve como uma classe base para outras classes. Pode conter tanto membros abstratos (métodos, propriedades, eventos, indexadores sem implementação, marcados com abstract) quanto membros concretos (com implementação, que podem ser virtual para permitir sobrescrita ou não).
-        
+
 ### Por que usar
 
 -  **Definir um Modelo Base Comum:** Quando você quer fornecer uma implementação padrão ou comportamento comum para um grupo de classes relacionadas, mas também quer forçar que certas partes sejam implementadas especificamente por cada subclasse.
@@ -71,7 +71,7 @@ Uma interface define um **contrato** puramente abstrato. Ela especifica um con
 - **Polimorfismo:** Permite tratar objetos de classes completamente diferentes de forma uniforme, desde que implementem a mesma interface.
 
  - **Princípio de Inversão de Dependência (DIP):** Fundamental para arquiteturas limpas e testáveis, onde módulos de alto nível não dependem de módulos de baixo nível, mas ambos dependem de abstrações (interfaces).
-            
+
 ## Abstract Class vs. Interface (Quando usar qual?)
 
  - Use **Abstract Class** quando:

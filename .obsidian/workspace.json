@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/CSharpFundamentals/Classes.md",
+                "file": "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Classes"
+              "title": "Eventos e Delegates"
             }
           }
         ],
@@ -88,13 +88,13 @@
             }
           },
           {
-            "id": "cdb444c7958386e0",
+            "id": "463f08394e8e6493",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {},
               "icon": "layout-grid",
-              "title": "Spaces"
+              "title": "Navigator"
             }
           }
         ],
@@ -196,11 +196,16 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "90c972b86bd2b99e",
   "lastOpenFiles": [
+    "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
+    "BakcEnd/CSharpFundamentals/Top-Level Statements no C#.md",
+    "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
+    "BakcEnd/CSharpFundamentals/sem a necessidade.md",
+    "LLM/Vibe Learning.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
     "Excalidraw/Scripts/Downloaded/Set Grid.md",
@@ -220,7 +225,6 @@
     "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
     "BakcEnd/CSharpFundamentals/DateTime.md",
     "BakcEnd/CSharpFundamentals",
-    "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
     "BakcEnd/DotNet/Desafios/APIVendas",
     "BakcEnd/DotNet/Desafios",
     "Ingles",
@@ -231,11 +235,8 @@
     "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
     "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
     "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
-    "BakcEnd/Web API  ASP DOT NET 8/Pasted image 20241029204917.md",
     "Arquivos/Imagens/Pasted image 20241029205047.png",
     "Arquivos/Imagens/Pasted image 20241029204917.png",
-    "Excalidraw/Assincronismo.md",
-    "BakcEnd/Web API  ASP DOT NET 8/6-Paginação,Filtro,Ordenação.md",
     "Arquivos/Imagens/Pasted image 20241024211402.png",
     "Arquivos/Imagens/Paginacao_implementacao.png",
     "Arquivos/Imagens/Pasted image 20241023211012.png",
@@ -245,7 +246,6 @@
     "Arquivos/Imagens/Agregação.png",
     "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
     "Arquivos/Imagens/LimitesDoBoundedContext.png",
-    "Arquivos",
-    "Pasted image 20240822212201.png"
+    "Arquivos"
   ]
 }

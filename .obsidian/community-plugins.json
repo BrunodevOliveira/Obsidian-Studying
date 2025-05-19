@@ -2,8 +2,7 @@
   "obsidian-git",
   "obsidian-excalidraw-plugin",
   "obsidian-admonition",
-  "colored-text",
   "make-md",
-  "style-text",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "editing-toolbar"
 ]
