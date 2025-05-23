@@ -32,9 +32,21 @@
               "icon": "lucide-file",
               "title": "Eventos e Delegates"
             }
+          },
+          {
+            "id": "20d57f5caa09ad02",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Ingles/quantificadores.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "quantificadores"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,7 @@
             }
           },
           {
-            "id": "463f08394e8e6493",
+            "id": "a8fa59db44b3d081",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -199,11 +211,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "90c972b86bd2b99e",
+  "active": "20d57f5caa09ad02",
   "lastOpenFiles": [
     "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
-    "BakcEnd/CSharpFundamentals/Top-Level Statements no C#.md",
     "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
+    "Ingles/quantificadores.excalidraw",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "BakcEnd/CSharpFundamentals/Top-Level Statements no C#.md",
     "BakcEnd/CSharpFundamentals/sem a necessidade.md",
     "LLM/Vibe Learning.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
@@ -233,8 +248,6 @@
     "BakcEnd/Web API  ASP DOT NET 8/12- Documentação com Swagger.md",
     "BakcEnd/Web API  ASP DOT NET 8/10- Versionamento de API.md",
     "BakcEnd/Web API  ASP DOT NET 8/9- CORS e Rate Limiting.md",
-    "BakcEnd/Web API  ASP DOT NET 8/8-Autenticação e Autorização.md",
-    "BakcEnd/Web API  ASP DOT NET 8/7- Programação assíncrona.md",
     "Arquivos/Imagens/Pasted image 20241029205047.png",
     "Arquivos/Imagens/Pasted image 20241029204917.png",
     "Arquivos/Imagens/Pasted image 20241024211402.png",
@@ -244,8 +257,6 @@
     "Projetos",
     "BakcEnd/Web API  ASP DOT NET 8",
     "Arquivos/Imagens/Agregação.png",
-    "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png",
-    "Arquivos/Imagens/LimitesDoBoundedContext.png",
-    "Arquivos"
+    "Arquivos/Imagens/DDD-Flow para criação de uma entidade.png"
   ]
 }
