@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "20d57f5caa09ad02",
+            "id": "d7f1f0a51e6effcd",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "a8fa59db44b3d081",
+            "id": "03e022120768e79f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -211,10 +212,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20d57f5caa09ad02",
+  "active": "d7f1f0a51e6effcd",
   "lastOpenFiles": [
-    "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
     "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
+    "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
     "Ingles/quantificadores.excalidraw",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
