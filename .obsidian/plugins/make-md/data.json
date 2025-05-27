@@ -40,8 +40,9 @@
   "expandedSpaces": [
     "//BakcEnd/BakcEnd/Web API  ASP .NET 8",
     "/",
-    "//BakcEnd/BakcEnd/CSharpFundamentals",
-    "//Ingles"
+    "//Ingles",
+    "//BakcEnd",
+    "//Excalidraw"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
