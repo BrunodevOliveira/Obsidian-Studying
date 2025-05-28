@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "30956ac9bd64240b",
+            "id": "a5640458c268a330",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -186,8 +186,8 @@
   },
   "active": "fa727b4a6e1a74e6",
   "lastOpenFiles": [
-    "Ingles/quantificadores.excalidraw",
     "Excalidraw/Camadas.excalidraw.md",
+    "Ingles/quantificadores.excalidraw",
     "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
     "BakcEnd/Camadas/Sem título.md",
     "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
