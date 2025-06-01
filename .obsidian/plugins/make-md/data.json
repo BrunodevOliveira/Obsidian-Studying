@@ -39,10 +39,12 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//BakcEnd/BakcEnd/Web API  ASP .NET 8",
-    "/",
     "//Ingles",
-    "//BakcEnd",
-    "//Excalidraw"
+    "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
+    "/",
+    "//BakcEnd/BakcEnd/CSharpFundamentals",
+    "//Excalidraw",
+    "//LLM"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -70,7 +72,7 @@
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": true,
   "indexSVG": false,
-  "readableLineWidth": false,
+  "readableLineWidth": true,
   "autoAddContextsToSubtags": true,
   "releaseNotesPrompt": 0.999,
   "enableDefaultSpaces": true,

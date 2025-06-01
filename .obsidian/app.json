@@ -3,5 +3,6 @@
   "attachmentFolderPath": "Arquivos/Imagens",
   "livePreview": true,
   "showLineNumber": false,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "spellcheck": false
 }

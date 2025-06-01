@@ -1,4 +1,4 @@
-# Trabalhando com Datas em C\#
+****# Trabalhando com Datas em C\#
 
 No desenvolvimento de aplicações, a manipulação de datas é uma tarefa comum e essencial. O C\# oferece diversas classes e métodos para facilitar esse trabalho, permitindo obter, formatar, comparar e manipular datas de maneira eficiente. Vamos explorar os principais aspectos da manipulação de datas no C\#.
 
@@ -379,3 +379,4 @@ Console.WriteLine($"Total de dias: {intervalo.TotalDays}"); // Total em dias
 Console.WriteLine($"Total de horas: {intervalo.TotalHours}"); // Total em horas
 Console.WriteLine($"Total de minutos: {intervalo.TotalMinutes}"); // Total em minutos
 ```
+
