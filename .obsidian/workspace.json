@@ -35,14 +35,12 @@
             "id": "a583bd03a634a79a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "BakcEnd/CSharpFundamentals/Classes.md",
-                "mode": "source",
-                "source": false
+                "file": "BakcEnd/DotNet/Camadas.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Classes"
+              "icon": "excalidraw-icon",
+              "title": "Camadas.excalidraw"
             }
           }
         ],
@@ -100,7 +98,7 @@
             }
           },
           {
-            "id": "9641328252560451",
+            "id": "bec8dded9468b40d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -213,18 +211,25 @@
   },
   "active": "98ac79381f8640a9",
   "lastOpenFiles": [
-    "BakcEnd/CSharpFundamentals/Classes.md",
-    "LLM/Mentor Csharp.md",
-    "Ingles/Simple Present.md",
+    "BakcEnd/DotNet/Camadas.excalidraw.md",
+    "Arquivos/Arquivos.md",
+    "BakcEnd/DotNet/ExceptionPersonalizada.excalidraw.md",
+    "BakcEnd/DotNet/EstruturaProjetoCashFlow.md",
+    "Arquivos/Imagens/Pasted Image 20250607003554_610.png",
+    "Arquivos/Imagens/Pasted Image 20250607003504_103.png",
+    "Arquivos/Imagens/Pasted Image 20250607003244_792.png",
+    "Arquivos/Imagens/Pasted Image 20250607003133_293.png",
+    "Arquivos/Imagens/Pasted Image 20250607003105_679.png",
+    "Arquivos/Imagens/Pasted Image 20250607002836_435.png",
+    "Arquivos/Imagens/Pasted Image 20250607002757_187.png",
+    "Arquivos/Imagens/Pasted Image 20250607002716_261.png",
     "Excalidraw/Excalidraw.md",
-    "Arquivos/Imagens/Pasted Image 20250601092007_090.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_080.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_073.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_066.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_058.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_048.png",
-    "Arquivos/Imagens/Pasted Image 20250601092007_011.png",
-    "Excalidraw/Camadas.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-07 00.25.00.excalidraw.md",
+    "BakcEnd/CSharpFundamentals/Classes.md",
+    "Ingles/Simple Present.md",
+    "Arquivos/Imagens/Pasted Image 20250601103721_657.png",
+    "Arquivos/Imagens/Pasted Image 20250601103659_885.png",
+    "LLM/Mentor Csharp.md",
     "BakcEnd/CSharpFundamentals/OOP.md",
     "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
     "BakcEnd/CSharpFundamentals/DateTime.md",
@@ -235,11 +240,9 @@
     "BakcEnd/Camadas/Sem título.md",
     "BakcEnd/Camadas/Camadas.md",
     "BakcEnd/Camadas",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "BakcEnd/CSharpFundamentals/Top-Level Statements no C#.md",
     "BakcEnd/CSharpFundamentals/sem a necessidade.md",
     "LLM/Vibe Learning.md",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
     "Excalidraw/Scripts/Downloaded/Set Grid.md",
     "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
@@ -249,15 +252,10 @@
     "LLM/LLM.md",
     "LLM",
     "Sem título.md",
-    "BakcEnd/CSharpFundamentals/Moedas.md",
-    "BakcEnd/CSharpFundamentals/Moedas.md",
-    "BakcEnd/CSharpFundamentals/Arrays.md",
-    "BakcEnd/CSharpFundamentals/SalvarDatasUTC.md",
     "BakcEnd/CSharpFundamentals",
     "BakcEnd/DotNet/Desafios/APIVendas",
     "BakcEnd/DotNet/Desafios",
     "Ingles",
-    "Arquivos/Imagens/Pasted image 20241029205047.png",
     "Projetos"
   ]
 }

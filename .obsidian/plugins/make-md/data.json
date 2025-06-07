@@ -39,12 +39,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//BakcEnd/BakcEnd/Web API  ASP .NET 8",
-    "//Ingles",
     "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
     "/",
-    "//BakcEnd/BakcEnd/CSharpFundamentals",
-    "//Excalidraw",
-    "//LLM"
+    "//BakcEnd/BakcEnd/DotNet",
+    "//Arquivos/Arquivos/Imagens"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
