@@ -41,8 +41,9 @@
     "//BakcEnd/BakcEnd/Web API  ASP .NET 8",
     "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
     "/",
-    "//BakcEnd/BakcEnd/DotNet",
-    "//Arquivos/Arquivos/Imagens"
+    "//Arquivos/Arquivos/Imagens",
+    "//Ingles",
+    "//BakcEnd"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
