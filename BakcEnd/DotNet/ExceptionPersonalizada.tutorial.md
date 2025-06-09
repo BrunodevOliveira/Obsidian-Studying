@@ -1,6 +1,6 @@
 # Tutorial: Implementando Exceções Personalizadas em uma API .NET com Filtro de Exceção
 
-  
+  https://studio.firebase.google.com/excecaopersolanizada-22105026
 
 Este tutorial demonstra como criar e gerenciar exceções personalizadas em uma API .NET utilizando um filtro de exceção global. Este padrão ajuda a centralizar o tratamento de erros e a fornecer respostas consistentes da API.
 
@@ -121,9 +121,6 @@ public class RespostaErroJson {
   
 
 ### 4. Implementando o Filtro de Exceções
-
-  
-
 *   **Objetivo:** Criar um ponto centralizado no pipeline de requisição para interceptar exceções e gerar respostas HTTP apropriadas.
 
 *   **Classe:** `FiltroExcecoes`
@@ -136,26 +133,15 @@ public class RespostaErroJson {
 
     *   Caso contrário (exceções não tratadas/inesperadas), chama `ErroSemTratamento`.
 
-  
-
-```csharp
-
+    ``` csharp
 using FluentValidation;
 
 using Microsoft.AspNetCore.Mvc;
 
 using Microsoft.AspNetCore.Mvc.Filters;
 
-  
-
-// ... (outras classes do arquivo Excecoes/ExcecaoExemplo.cs)
-
-  
-
 public class FiltroExcecoes : IExceptionFilter {
-
   
-
     public void OnException(ExceptionContext context) {
 
         // Verifica se a exceção é uma das nossas exceções personalizadas
@@ -181,7 +167,6 @@ public class FiltroExcecoes : IExceptionFilter {
   
 
     private void ProcessarExcecao(ExceptionContext context) {
-
         // Verifica o tipo específico da exceção personalizada para tratamento diferenciado, se necessário
 
         if(context.Exception is RegistroPessoaExcecaoPersonalizada) {
@@ -191,8 +176,6 @@ public class FiltroExcecoes : IExceptionFilter {
             // Cria a resposta padronizada usando as mensagens de erro da exceção
 
             var respostaErro = new RespostaErroJson(ex.Errors);
-
-  
 
             // Define o status code HTTP para 400 Bad Request (comum para erros de validação/negócio)
 
@@ -218,7 +201,6 @@ public class FiltroExcecoes : IExceptionFilter {
 
     }
 
-  
 
     private void ErroSemTratamento(ExceptionContext context) {
 
@@ -239,9 +221,7 @@ public class FiltroExcecoes : IExceptionFilter {
     }
 
 }
-
 ```
-
 *   **Métodos:**
 
     *   `OnException(ExceptionContext context)`: O ponto de entrada do filtro.
@@ -250,12 +230,7 @@ public class FiltroExcecoes : IExceptionFilter {
 
     *   `ErroSemTratamento(ExceptionContext context)`: Lida com exceções inesperadas, retornando um erro 500.
 
-  
-
 ### 5. Utilizando a Exceção Personalizada (Exemplo com Validação)
-
-  
-
 *   **Objetivo:** Demonstrar como lançar a exceção personalizada a partir da sua lógica de negócio.
 
 *   **Classes de Exemplo:** `RegrasValidacaoPessoa` (utilizando FluentValidation) e `RegistrarPessoaRegraNegocio`.
@@ -270,18 +245,8 @@ public class FiltroExcecoes : IExceptionFilter {
 
     *   O Controller (`PessoaController`) na action `RegistrarPessoa` chama `RegistrarPessoaRegraNegocio().Execute(request)`. Quando a exceção é lançada pelo método `Execute`, ela é propagada para o pipeline e interceptada pelo `FiltroExcecoes`.
 
-  
 
-```csharp
-
-// No arquivo Excecoes/ExcecaoExemplo.cs
-
-// ... (outras classes)
-
-  
-
-// Exemplo de Classe de Regras de Validação usando FluentValidation
-
+    ``` csharp
 public class RegrasValidacaoPessoa : AbstractValidator<RequestRegistroPessoaJson> // RequestRegistroPessoaJson está no arquivo do Controller
 
 {
@@ -304,8 +269,6 @@ public class RegrasValidacaoPessoa : AbstractValidator<RequestRegistroPessoaJson
 
 }
 
-  
-
 // Classe de Regra de Negócio que orquestra a validação e lança a exceção
 
 public class RegistrarPessoaRegraNegocio() {
@@ -314,11 +277,7 @@ public class RegistrarPessoaRegraNegocio() {
 
         ValidarRegistroPessoa(request);
 
-  
-
         // Lógica real para registrar a pessoa no banco de dados ou outro serviço...
-
-  
 
         return new RespostaRegistroPessoaJson {
 
@@ -327,8 +286,6 @@ public class RegistrarPessoaRegraNegocio() {
         };
 
     }
-
-  
 
     private void ValidarRegistroPessoa(RequestRegistroPessoaJson request) {
 
@@ -351,8 +308,6 @@ public class RegistrarPessoaRegraNegocio() {
     }
 
 }
-
-  
 
 // No arquivo Controllers/HomeController.cs (renomeado para PessoaController para clareza)
 
@@ -382,13 +337,7 @@ public class PessoaController : ControllerBase
 
     }
 
-  
-
-    // ... outras actions do controller
-
 }
-
-  
 
 // Definições dos modelos de requisição e resposta (exemplo)
 
@@ -416,8 +365,6 @@ public class RespostaRegistroPessoaJson() {
 
 }
 
-  
-
 // Exemplo de Enum (em algum lugar no projeto)
 
 public enum GeneroType
@@ -431,73 +378,42 @@ public enum GeneroType
     Outro
 
 }
-
-```
-
-  
-
+    ```
 ### 6. Registrando o Filtro de Exceção no Pipeline da Aplicação
-
-  
-
 *   **Objetivo:** Adicionar o `FiltroExcecoes` aos serviços do ASP.NET Core para que ele seja executado automaticamente quando exceções não tratadas ocorrerem nas actions dos controllers.
 
 *   **Arquivo:** `Program.cs`
 
 *   **Como registrar (baseado no seu `Program.cs`):** No seu caso, o filtro está sendo adicionado às opções do MVC.
 
-  
 
-```csharp
-
+ ```csharp
 using Excecoes; // Importa o namespace do filtro
 
-  
-
 var builder = WebApplication.CreateBuilder(args);
-
-  
 
 // Adiciona os serviços de controllers
 
 builder.Services.AddControllers();
 
-  
-
 // Adiciona o filtro de exceção às opções do MVC
 
 builder.Services.AddMvc(opt => opt.Filters.Add(typeof(FiltroExcecoes)));
 
-  
-
-// ... (outras configurações e build da aplicação)
-
-  
 
 var app = builder.Build();
-
-  
 
 // Mapeia os endpoints dos controllers
 
 app.MapControllers();
 
-  
-
 // Inicia a aplicação, escutando na URL especificada
 
 app.Run(url); // url definida anteriormente com base na variável de ambiente PORT
+    ```
 
-```
-
-  
-
-**Fluxo Resumido:**
-
-  
+### Fluxo Resumido:
 
 Requisição -> Controller Action -> Lógica de Negócio/Validação -> Lança `RegistroPessoaExcecaoPersonalizada` -> Exceção Propagada -> `FiltroExcecoes` Intercepta -> `FiltroExcecoes` Chama `ProcessarExcecao` -> `ProcessarExcecao` Identifica o tipo específico, Cria `RespostaErroJson`, Define Status 400, Define `context.Result` -> Resposta 400 JSON enviada ao Cliente.
-
-  
 
 Este fluxo garante que seus erros de negócio sejam tratados de forma consistente, retornando respostas padronizadas com códigos de status HTTP apropriados para o cliente da API.
