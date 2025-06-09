@@ -23,15 +23,18 @@
             "id": "a583bd03a634a79a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "BakcEnd/Camadas/Camadas.excalidraw.md"
+                "file": "BakcEnd/DotNet/ExceptionPersonalizada.tutorial.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Camadas.excalidraw"
+              "icon": "lucide-file",
+              "title": "ExceptionPersonalizada.tutorial"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +88,7 @@
             }
           },
           {
-            "id": "bec8dded9468b40d",
+            "id": "931d574646fac292",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -99,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922,
-    "collapsed": true
+    "width": 307.5110321044922
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -197,11 +199,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "98ac79381f8640a9",
+  "active": "a583bd03a634a79a",
   "lastOpenFiles": [
+    "BakcEnd/DotNet/ResourcerMsgErro.md",
+    "BakcEnd/DotNet/ExceptionPersonalizada.tutorial.md",
+    "Arquivos/Imagens/ResourceErroMessage.png",
     "BakcEnd/Camadas/Camadas.excalidraw.md",
-    "BakcEnd/DotNet/DotNet.md",
     "Ingles/Simple Present.md",
+    "BakcEnd/DotNet/DotNet.md",
     "Arquivos/Arquivos.md",
     "BakcEnd/DotNet/ExceptionPersonalizada.excalidraw.md",
     "BakcEnd/DotNet/EstruturaProjetoCashFlow.md",
@@ -217,7 +222,6 @@
     "Excalidraw/Drawing 2025-06-07 00.25.00.excalidraw.md",
     "BakcEnd/CSharpFundamentals/Classes.md",
     "Arquivos/Imagens/Pasted Image 20250601103721_657.png",
-    "Arquivos/Imagens/Pasted Image 20250601103659_885.png",
     "LLM/Mentor Csharp.md",
     "BakcEnd/CSharpFundamentals/OOP.md",
     "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
@@ -237,8 +241,6 @@
     "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "LLM/Mentor SQL.md",
-    "LLM/LLM.md",
     "LLM",
     "BakcEnd/CSharpFundamentals",
     "BakcEnd/DotNet/Desafios/APIVendas",
