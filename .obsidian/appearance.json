@@ -1,4 +1,6 @@
 {
   "textFontFamily": "Fira Code Retina",
-  "cssTheme": ""
+  "cssTheme": "Minimal",
+  "accentColor": "#7b6a95",
+  "theme": "moonstone"
 }

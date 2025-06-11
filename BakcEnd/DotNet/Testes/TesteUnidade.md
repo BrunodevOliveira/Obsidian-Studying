@@ -10,6 +10,7 @@
 - `[Theory]` -> Habilita a passagem de parâmetros para a função de teste
 	- `[InlineData(<valor>)]` -> Valores que serão testados como argumento da função
 
+
 	```csharp
 public class RegisterExpenseValidatorTests {
 	[Fact] //Decorator que transforma a função em um teste de unidade  

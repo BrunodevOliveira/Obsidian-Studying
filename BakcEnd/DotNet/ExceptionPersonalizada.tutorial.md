@@ -5,28 +5,18 @@
 Este tutorial demonstra como criar e gerenciar exceções personalizadas em uma API .NET utilizando um filtro de exceção global. Este padrão ajuda a centralizar o tratamento de erros e a fornecer respostas consistentes da API.
 
   
-
 O projeto "ExcecaoPersonalizada" serve como exemplo dessa implementação.
 
-  
 
 ## Estrutura e Objetivo das Classes:
 
-  
-
 ### 1. Definindo a Exceção Base Personalizada
 
-  
-
-*   **Objetivo:** Criar uma classe base que sirva como marcador para todas as suas exceções de negócio personalizadas. O filtro de exceção usará essa base para identificar quais exceções ele deve tratar.
+*   **Objetivo:** Criar uma classe base que sirva como **marcador para todas as suas exceções de negócio personalizadas**. O filtro de exceção usará essa base para identificar quais exceções ele deve tratar.
 
 *   **Classe:** `BaseExcecaoPersonalizada`
 
-*   **Arquivo:** `Excecoes/ExcecaoExemplo.cs` (ou um arquivo dedicado para exceções base)
-
 *   **Descrição:** Herda diretamente de `SystemException`. Não requer lógica interna complexa, sua principal função é a herança para identificação.
-
-  
 
 ```csharp
 
@@ -34,19 +24,13 @@ public abstract class BaseExcecaoPersonalizada : SystemException{}
 
 ```
 
-  
-
 ### 2. Criando Exceções Específicas Personalizadas
-
-  
 
 *   **Objetivo:** Definir classes de exceção para cenários de erro específicos do seu domínio de negócio.
 
 *   **Classe:** `RegistroPessoaExcecaoPersonalizada`
 
-*   **Arquivo:** `Excecoes/ExcecaoExemplo.cs`
-
-*   **Descrição:** Representa um erro ocorrido durante o processo de registro de uma pessoa. Inclui uma propriedade `Errors` (lista de strings) para detalhar as mensagens de erro associadas (por exemplo, erros de validação).
+*   **Descrição:** Representa um erro ocorrido durante o processo de registro de uma pessoa. Inclui uma propriedade `Errors` (lista de strings) para detalhar as mensagens de erro associadas.
 
   
 
@@ -72,21 +56,14 @@ public class RegistroPessoaExcecaoPersonalizada : BaseExcecaoPersonalizada {
 
 *   **Nota:** Você pode criar outras classes de exceção personalizadas (ex: `UsuarioNaoEncontradoExcecao`, `PedidoInvalidoExcecao`) herdando de `BaseExcecaoPersonalizada` para outros tipos de erros.
 
-  
-
 ### 3. Padronizando a Resposta de Erro
-
-  
 
 *   **Objetivo:** Garantir que a resposta enviada ao cliente quando ocorre um erro tratado tenha um formato consistente.
 
 *   **Classe:** `RespostaErroJson`
 
-*   **Arquivo:** `Excecoes/ExcecaoExemplo.cs`
-
 *   **Descrição:** Uma classe simples para serializar a informação do erro. Contém uma lista de strings (`ErrorMessages`) para as mensagens de erro. Possui construtores para conveniência, aceitando uma única mensagem ou uma lista.
 
-  
 
 ```csharp
 

@@ -42,9 +42,9 @@
     "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
     "/",
     "//Arquivos/Arquivos/Imagens",
+    "//Git",
     "//BakcEnd",
-    "//BakcEnd/BakcEnd/DotNet",
-    "//BakcEnd/BakcEnd/DotNet/BakcEnd/DotNet/Testes"
+    "//BakcEnd/BakcEnd/DotNet"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
