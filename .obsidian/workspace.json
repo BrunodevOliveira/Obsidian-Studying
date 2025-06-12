@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/DotNet/PersistenciaDados.md",
+                "file": "BakcEnd/DotNet/ConexaoDBComEF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PersistenciaDados"
+              "title": "ConexaoDBComEF"
             }
           }
         ],
@@ -98,11 +98,11 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
-            "id": "8bd0520673708f32",
+            "id": "fec1118e4095ca0c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -215,8 +215,9 @@
   },
   "active": "944aa4f2fd79e22d",
   "lastOpenFiles": [
-    "BakcEnd/DotNet/InjecaoDependencia.md",
     "BakcEnd/DotNet/PersistenciaDados.md",
+    "BakcEnd/DotNet/ConexaoDBComEF.md",
+    "BakcEnd/DotNet/InjecaoDependencia.md",
     "Git/RepositorioDotNet.md",
     "Git/Git.md",
     "Git",
@@ -253,7 +254,6 @@
     "Ingles/quantificadores.excalidraw",
     "BakcEnd/DotNet/Desafios/APIVendas/Entidades.excalidraw.md",
     "BakcEnd/Camadas/Sem título.md",
-    "BakcEnd/Camadas/Camadas.md",
     "BakcEnd/Camadas",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
