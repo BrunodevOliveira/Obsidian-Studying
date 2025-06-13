@@ -46,9 +46,21 @@
               "icon": "lucide-file",
               "title": "ConexaoDBComEF"
             }
+          },
+          {
+            "id": "512befe7542e83c9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "FluxoAcessoDB.excalidraw"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             }
           },
           {
-            "id": "fec1118e4095ca0c",
+            "id": "555dec8615b4cdc1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -116,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -213,10 +226,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "944aa4f2fd79e22d",
+  "active": "35a791293b31bba9",
   "lastOpenFiles": [
-    "BakcEnd/DotNet/ConexaoDBComEF.excalidraw.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
+    "BakcEnd/DotNet/ConexaoDBComEF.excalidraw.md",
     "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
     "BakcEnd/DotNet/Untitled.md",
     "BakcEnd/DotNet/PersistenciaDados.md",
