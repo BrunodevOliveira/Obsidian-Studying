@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "f23d6ee3eeaa1f61",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Ingles/Possessive.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Possessive"
+            }
+          },
+          {
+            "id": "44c00cde015bd121",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Ingles/Verb To Be.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Verb To Be"
+            }
+          },
+          {
             "id": "a583bd03a634a79a",
             "type": "leaf",
             "state": {
@@ -60,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +138,7 @@
             }
           },
           {
-            "id": "555dec8615b4cdc1",
+            "id": "6e78f4b7375e86bc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -226,11 +250,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35a791293b31bba9",
+  "active": "f23d6ee3eeaa1f61",
   "lastOpenFiles": [
+    "Ingles/Simple Present.md",
+    "Ingles/Possessive.md",
+    "Arquivos/Imagens/Pasted Image 20250615114656_472.png",
+    "Arquivos/Imagens/Pasted Image 20250615113609_576.png",
+    "Arquivos/Imagens/Pasted Image 20250615112755_351.png",
+    "Arquivos/Imagens/Pasted Image 20250615112106_862.png",
+    "Arquivos/Imagens/Pasted Image 20250615112042_914.png",
+    "Arquivos/Imagens/Pasted Image 20250615105815_137.png",
+    "Arquivos/Imagens/Pasted Image 20250615105555_043.png",
+    "Arquivos/Imagens/Pasted Image 20250615104158_715.png",
+    "Ingles/Verb To Be.md",
+    "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
     "BakcEnd/DotNet/ConexaoDBComEF.excalidraw.md",
-    "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
     "BakcEnd/DotNet/Untitled.md",
     "BakcEnd/DotNet/PersistenciaDados.md",
     "BakcEnd/DotNet/InjecaoDependencia.md",
@@ -247,25 +282,14 @@
     "BakcEnd/DotNet/ExceptionPersonalizada.excalidraw.md",
     "BakcEnd/DotNet/ResourcerMsgErro.md",
     "Arquivos/Imagens/ResourceErroMessage.png",
-    "Ingles/Simple Present.md",
     "Arquivos/Arquivos.md",
     "Arquivos/Imagens/Pasted Image 20250607003554_610.png",
-    "Arquivos/Imagens/Pasted Image 20250607003504_103.png",
-    "Arquivos/Imagens/Pasted Image 20250607003244_792.png",
-    "Arquivos/Imagens/Pasted Image 20250607003133_293.png",
-    "Arquivos/Imagens/Pasted Image 20250607003105_679.png",
-    "Arquivos/Imagens/Pasted Image 20250607002836_435.png",
-    "Arquivos/Imagens/Pasted Image 20250607002757_187.png",
-    "Arquivos/Imagens/Pasted Image 20250607002716_261.png",
     "Excalidraw/Excalidraw.md",
     "Excalidraw/Drawing 2025-06-07 00.25.00.excalidraw.md",
     "BakcEnd/CSharpFundamentals/Classes.md",
-    "Arquivos/Imagens/Pasted Image 20250601103721_657.png",
     "LLM/Mentor Csharp.md",
     "BakcEnd/CSharpFundamentals/OOP.md",
     "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
-    "BakcEnd/CSharpFundamentals/DateTime.md",
-    "2025-05-30.md",
     "Ingles/quantificadores.excalidraw",
     "BakcEnd/Camadas",
     "Excalidraw/Scripts/Downloaded",
