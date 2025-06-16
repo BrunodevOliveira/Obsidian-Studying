@@ -389,6 +389,8 @@ app.MapControllers();
 app.Run(url); // url definida anteriormente com base na variável de ambiente PORT
     ```
 
+
+
 ### Fluxo Resumido:
 
 Requisição -> Controller Action -> Lógica de Negócio/Validação -> Lança `RegistroPessoaExcecaoPersonalizada` -> Exceção Propagada -> `FiltroExcecoes` Intercepta -> `FiltroExcecoes` Chama `ProcessarExcecao` -> `ProcessarExcecao` Identifica o tipo específico, Cria `RespostaErroJson`, Define Status 400, Define `context.Result` -> Resposta 400 JSON enviada ao Cliente.
