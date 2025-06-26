@@ -46,15 +46,17 @@
             }
           },
           {
-            "id": "512befe7542e83c9",
+            "id": "82fa8a29e97b5cf8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md"
+                "file": "SQL/Filtros condicionais opcionais.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "FluxoAcessoDB.excalidraw"
+              "icon": "lucide-file",
+              "title": "Filtros condicionais opcionais"
             }
           }
         ],
@@ -112,7 +114,7 @@
             }
           },
           {
-            "id": "9e097bc7d1cb419f",
+            "id": "a68f99ff498ca548",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -122,12 +124,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922,
-    "collapsed": true
+    "width": 307.5110321044922
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -224,10 +225,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "512befe7542e83c9",
+  "active": "82fa8a29e97b5cf8",
   "lastOpenFiles": [
-    "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
+    "SQL/Filtros condicionais opcionais.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
+    "SQL/SQL.md",
+    ".md",
+    "SQL",
+    "Untitled.md",
+    "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
     "Ingles/Possessive.md",
     "BakcEnd/DotNet/ExceptionPersonalizada.tutorial.md",
     "Ingles/Simple Present.md",
@@ -261,16 +267,11 @@
     "Excalidraw/Excalidraw.md",
     "Excalidraw/Drawing 2025-06-07 00.25.00.excalidraw.md",
     "BakcEnd/CSharpFundamentals/Classes.md",
-    "LLM/Mentor Csharp.md",
-    "BakcEnd/CSharpFundamentals/OOP.md",
-    "BakcEnd/CSharpFundamentals/Eventos e Delegates.md",
     "Ingles/quantificadores.excalidraw",
     "BakcEnd/Camadas",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "LLM",
-    "BakcEnd/CSharpFundamentals",
-    "BakcEnd/DotNet/Desafios/APIVendas",
-    "BakcEnd/DotNet/Desafios"
+    "BakcEnd/CSharpFundamentals"
   ]
 }
