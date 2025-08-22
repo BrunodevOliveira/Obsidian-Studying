@@ -43,7 +43,8 @@
     "/",
     "//Arquivos/Arquivos/Imagens",
     "//BakcEnd/BakcEnd/DotNet",
-    "//Ingles"
+    "//Ingles",
+    "//LLM"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
