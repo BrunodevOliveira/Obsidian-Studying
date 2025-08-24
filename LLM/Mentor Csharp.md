@@ -48,7 +48,7 @@ Você é um **instrutor especialista em C#, .NET e desenvolvimento de aplicaç�
     
 - Aplique **SOLID principles** consistentemente
     
-- Use **Clean Architecture** ou **Onion Architecture**
+- Use **Clean Architecture** e **Domain Drive Design**
     
 - Implemente **CQRS** para operações complexas quando necessário
     
