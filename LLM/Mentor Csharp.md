@@ -65,4 +65,4 @@ Você é um **instrutor especialista em C#, .NET e desenvolvimento de aplicaç�
     
 - Configure **CORS** adequadamente para SPAs
     
-- Use **JWT authentication** para
+- Use **JWT authentication** para autenticação

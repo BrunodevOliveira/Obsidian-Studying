@@ -1519,3 +1519,8 @@ curl -X POST "$BASE_URL/usuarios" \
 # Teste 4: Buscar usuário inexistente
 curl -X GET "$BASE_URL/usuarios/00000000-0000-0000-0000-000000000000"
 ```
+
+# Melhorias
+> [!NOTE]
+    > https://claude.ai/share/e5f65754-4887-413c-960f-80d8f088e05e
+    > 
