@@ -1520,6 +1520,9 @@ curl -X POST "$BASE_URL/usuarios" \
 curl -X GET "$BASE_URL/usuarios/00000000-0000-0000-0000-000000000000"
 ```
 
+
+# Chat Claude code
+[Tutorial DB + EF + Docker - Claude](https://claude.ai/chat/55eb288d-3d95-4d4c-bf1f-4744d9828349)
 # Melhorias
 > [!NOTE]
     > https://claude.ai/share/e5f65754-4887-413c-960f-80d8f088e05e
