@@ -8,15 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba59f60818fe270f",
+            "id": "7f9e6f8a9e5d57f8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Ingles/Verb To Be.md"
+                "file": "Ingles/Future.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Verb To Be"
+              "title": "Future.excalidraw"
+            }
+          },
+          {
+            "id": "70649359d6e4e988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles/Adjectives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adjectives"
             }
           },
           {
@@ -34,18 +48,6 @@
             }
           },
           {
-            "id": "70649359d6e4e988",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Future.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Future.excalidraw"
-            }
-          },
-          {
             "id": "3479c46178e54b0b",
             "type": "leaf",
             "state": {
@@ -60,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +116,7 @@
             }
           },
           {
-            "id": "7dfd3a226a8b5197",
+            "id": "4cca0b570c7462ed",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -128,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -226,12 +229,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3479c46178e54b0b",
+  "active": "70649359d6e4e988",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Ingles/Future.excalidraw.md",
+    "Ingles/Adjectives.md",
+    "Arquivos/Imagens/Pasted Image 20250817115830_399.png",
+    "Ingles/Verb To Be.md",
+    "Ingles/Future - Will and Be Going To.md",
+    "Ingles/quantificadores.excalidraw",
+    "BakcEnd/DotNet/ConexaoDBComEF.md",
     "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1.md",
+    "Ingles/Simple Past.md",
+    "Ingles/Prepositions in, o, at.md",
+    "Ingles/Possessive.md",
+    "Ingles/Modal Verbs.md",
+    "Ingles/Simple Present.md",
+    "Untitled.md",
     "LLM/Mentor Csharp.md",
-    "Excalidraw/Future.excalidraw.md",
     "Arquivos/Imagens/Pasted Image 20250824115412_762.png",
     "Arquivos/Imagens/Pasted Image 20250824104321_747.png",
     "Arquivos/Imagens/Pasted Image 20250824102740_104.png",
@@ -241,20 +255,10 @@
     "Arquivos/Imagens/Pasted Image 20250824101708_815.png",
     "Arquivos/Imagens/Pasted Image 20250824101545_762.png",
     "Arquivos/Imagens/Pasted Image 20250824101410_739.png",
-    "Ingles/Future - Will and Be Going To.md",
-    "Ingles/Verb To Be.md",
     "BakcEnd/DotNet/DotNet.md",
-    "BakcEnd/DotNet/ConexaoDBComEF.md",
     "Git/Git.md",
-    "Ingles/Simple Past.md",
-    "Ingles/Prepositions in, o, at.md",
-    "Ingles/Modal Verbs.md",
     "Ingles/Modal Verbs.excalidraw.md",
-    "Ingles/Simple Present.md",
     "Modal Verbs.md",
-    "Arquivos/Imagens/Pasted Image 20250817120559_957.png",
-    "Ingles/quantificadores.excalidraw",
-    "Ingles/Possessive.md",
     "SQL/Filtros condicionais opcionais.md",
     "Tags",
     "SQL/SQL.md",
@@ -266,9 +270,7 @@
     "BakcEnd/DotNet/Untitled.md",
     "BakcEnd/DotNet/PersistenciaDados.md",
     "BakcEnd/DotNet/InjecaoDependencia.md",
-    "Git/RepositorioDotNet.md",
     "Git",
-    "BakcEnd/DotNet/EstruturaProjetoCashFlow.md",
     "BakcEnd/DotNet/Testes",
     "BakcEnd/Camadas",
     "Excalidraw/Scripts/Downloaded",
