@@ -20,6 +20,20 @@
             }
           },
           {
+            "id": "fcebfa0bedb9efdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles/Contractions and Parents (Class 17).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contractions and Parents (Class 17)"
+            }
+          },
+          {
             "id": "70649359d6e4e988",
             "type": "leaf",
             "state": {
@@ -62,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,7 +130,7 @@
             }
           },
           {
-            "id": "4cca0b570c7462ed",
+            "id": "644e45c024830457",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -130,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922,
-    "collapsed": true
+    "width": 307.5110321044922
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -229,22 +242,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "70649359d6e4e988",
+  "active": "3479c46178e54b0b",
   "lastOpenFiles": [
+    "BakcEnd/Tutoriais/Criando Projeto Clean Arch.md",
+    "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1.md",
+    "BakcEnd/Tutoriais/Tutoriais.md",
+    "BakcEnd/Tutoriais",
+    "Ingles/Contractions and Parents (Class 17).md",
+    "SQL/Filtros condicionais opcionais.md",
     "Ingles/Future.excalidraw.md",
     "Ingles/Adjectives.md",
+    "BakcEnd/DotNet/ConexaoDBComEF.md",
     "Arquivos/Imagens/Pasted Image 20250817115830_399.png",
     "Ingles/Verb To Be.md",
     "Ingles/Future - Will and Be Going To.md",
     "Ingles/quantificadores.excalidraw",
-    "BakcEnd/DotNet/ConexaoDBComEF.md",
-    "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1.md",
     "Ingles/Simple Past.md",
     "Ingles/Prepositions in, o, at.md",
     "Ingles/Possessive.md",
     "Ingles/Modal Verbs.md",
     "Ingles/Simple Present.md",
-    "Untitled.md",
     "LLM/Mentor Csharp.md",
     "Arquivos/Imagens/Pasted Image 20250824115412_762.png",
     "Arquivos/Imagens/Pasted Image 20250824104321_747.png",
@@ -259,7 +276,6 @@
     "Git/Git.md",
     "Ingles/Modal Verbs.excalidraw.md",
     "Modal Verbs.md",
-    "SQL/Filtros condicionais opcionais.md",
     "Tags",
     "SQL/SQL.md",
     ".md",
@@ -269,12 +285,10 @@
     "BakcEnd/DotNet/ConexaoDBComEF.excalidraw.md",
     "BakcEnd/DotNet/Untitled.md",
     "BakcEnd/DotNet/PersistenciaDados.md",
-    "BakcEnd/DotNet/InjecaoDependencia.md",
     "Git",
     "BakcEnd/DotNet/Testes",
     "BakcEnd/Camadas",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "LLM"
+    "Excalidraw/Scripts"
   ]
 }

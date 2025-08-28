@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "Tutorial: Integrando MySQL com Docker em ASP.NET Core 8 + DDD1"
+sticker: emoji//1f4d1
 ---
 # 🏗️ PASSO 1: Estrutura do projeto
 📁 MeuProjeto.sln
@@ -12,6 +12,8 @@ aliases:
 │   └── 📁 MeuProjeto.Communication/    # DTOs e contratos
 └── 📁 docker/
     └── 📄 docker-compose.yml
+## [[Criando Projeto Clean Arch]]
+
 
 # 🐳 PASSO 2: Configurando o MySQL no Docker
 Crie o arquivo `docker/docker-compose.yml`
