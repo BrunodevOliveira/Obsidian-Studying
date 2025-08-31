@@ -131,20 +131,7 @@ src/
 ```  
   
 # Fluxo de Desenvolvimento: Do Domínio para a API  
----  
-## 📋 Índice Completo  
-  
-1. [Preparação do Ambiente e Projeto](#1-preparação-do-ambiente-e-projeto)  
-2. [Domain - A Base de Tudo](#2-domain---a-base-de-tudo)  
-3. [Communication - Contratos de Comunicação](#3-communication---contratos-de-comunicação)  
-4. [Exception - Sistema de Erros](#4-exception---sistema-de-erros)  
-5. [Application - Casos de Uso](#5-application---casos-de-uso)  
-6. [Infrastructure - Acesso a Dados](#6-infrastructure---acesso-a-dados)  
-7. [API - Endpoints HTTP](#7-api---endpoints-http)  
-8. [Configuração Final e Testes](#8-configuração-final-e-testes)  
-  
----  
-  
+
 ## 1. 🏗️ Preparação do Ambiente e Projeto  
   
 ### Para Projeto Novo  

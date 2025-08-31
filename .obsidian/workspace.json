@@ -144,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -243,7 +244,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c64916e064177dd3",
+  "active": "0f4ad08a3a4760a9",
   "lastOpenFiles": [
     "Untitled.base",
     "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
