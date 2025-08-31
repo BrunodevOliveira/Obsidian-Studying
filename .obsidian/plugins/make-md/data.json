@@ -40,10 +40,10 @@
   "expandedSpaces": [
     "//BakcEnd/BakcEnd/Web API  ASP .NET 8",
     "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
-    "/",
     "//Arquivos/Arquivos/Imagens",
+    "//BakcEnd/BakcEnd/tutoriais",
     "//BakcEnd",
-    "//BakcEnd/BakcEnd/tutoriais"
+    "/"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

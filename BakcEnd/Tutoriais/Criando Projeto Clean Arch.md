@@ -60,25 +60,29 @@ Vamos criar o diretório raiz, o arquivo de solução (.sln) e as pastas src e d
 Este é o passo mais crítico para garantir a Clean Architecture. A regra principal é: as dependências apontam para dentro. O Domain é o centro, e nada fora dele deve ser referenciado por ele.
 
   API → Application → Domain  → Infrastructure → Application
-- A API depende da Application (para invocar os casos de uso) e da Communication (para os DTOs).
+- A API depende da Application (para invocar os casos de uso) e da Communication (para os DTOs) e Infraestructure (Para registrar as implementações no container de DI) e Exception para gerenciamento de Exceções.
 
 ```shell
 dotnet add src/Base.API/Base.API.csproj reference src/Base.Application/Base.Application.csproj
 
 dotnet add src/Base.API/Base.API.csproj reference src/Base.Communication/Base.Communication.csproj
+
+dotnet add src/Base.API/Base.API.csproj reference src/Base.Infrastructure/Base.Infrastructure.csproj
+
+dotnet add src/Base.API/Base.API.csproj reference src/Base.Exception/Base.Exception.csproj
 ```
 
-- A Application depende do Domain (para usar as entidades) e da Communication (para os contratos).
+- A Application depende do Domain (para usar as entidades) e da Communication (para os contratos) e Exception para gerenciamento de Exceções.
 ```shell
 dotnet add src/Base.Application/Base.Application.csproj reference src/Base.Domain/Base.Domain.csproj
 
 dotnet add src/Base.Application/Base.Application.csproj reference src/Base.Communication/Base.Communication.csproj
+
+dotnet add src/Base.Application/Base.Application.csproj reference src/Base.Exception/Base.Exception.csproj
 ```
 
-- A Infrastructure depende da Application (para implementar interfaces, como IUserRepository) e do Domain
+- A Infrastructure depende do Domain
 ```shell
-dotnet add src/Base.Infrastructure/Base.Infrastructure.csproj reference src/Base.Application/Base.Application.csproj
-
 dotnet add src/Base.Infrastructure/Base.Infrastructure.csproj reference src/Base.Domain/Base.Domain.csproj
 ```
 

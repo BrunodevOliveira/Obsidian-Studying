@@ -1,5 +1,3 @@
-Aqui está um material completo e didático sobre Adjectives (adjetivos) para alunos de nível A1. Tudo em português, com explicações simples, muitos exemplos, exercícios e gabarito.
-
 # O que é um adjective?
 Um adjective (adjetivo) descreve ou qualifica um substantivo. Em inglês, o adjective:
 - Normalmente vem antes do substantivo: a red car (um carro vermelho).
@@ -27,18 +25,24 @@ Tradução: uma bela pequena bolsa redonda vermelha italiana de couro
 
 ![[Pasted Image 20250817114928_522.png]]
 
-# Comparativo e superlativo (básico)
+# Comparativo e superlativo
 ## Comparativo: para comparar duas coisas.
-  - Adjetivos curtos (1 sílaba ou 2 com padrão CVC): add -er
+  - Adjetivos curtos (1 sílaba ou 2 com padrão CVC): **add -er**
     - tall → taller (mais alto)
-    - big → bigger (maior) [dobrar a consoante final]
+    - big → bigger (maior) <span style="background:rgba(240, 200, 0, 0.2)">dobrar a consoante final</span>
+    - Happy →  Happ**ier** (termina em **y**) <span style="background:rgba(240, 200, 0, 0.2)">troca y por i  + er</span>
   - Adjetivos longos (2+ sílabas geralmente): use more
     - beautiful → more beautiful (mais bonito)
 ## Superlativo: para indicar o extremo (o mais)
   - Adjetivos curtos: add -est
     - tall → tallest (o mais alto)
+		- The tallest building is here. O prédio mais alto está aqui.
+	- Small → Smallest (o menor) 
+		- This is the smallest box. Esta é a menor caixa.
   - Adjetivos longos: use most
     - beautiful → most beautiful (o mais bonito)
+    - interesting  → most interesting (mais interessante)
+	    - That was the most interesting lecture. Essa foi a palestra mais interessante. 
 ## Irregulares importantes:
   - good → better → best (bom → melhor → o melhor)
   - bad → worse → worst (ruim → pior → o pior)
@@ -48,13 +52,15 @@ Tradução: uma bela pequena bolsa redonda vermelha italiana de couro
 ## Esquema
 ![[Pasted Image 20250817120559_957.png]]
 
-## Regras rápidas de grafia:
-- Final em **-y**: happy → happier <span style="background:rgba(240, 200, 0, 0.2)">(troque y por i)</span>
-- **CVC** (consoante-vogal-consoante): <span style="background:rgba(240, 200, 0, 0.2)">double final consonant: big → bigger</span>
-- Final em **-e**: <span style="background:rgba(240, 200, 0, 0.2)">add -r / -st: nice → nicer → nicest</span>
+
+> [!important] Regras
+>  - Comrapative  = er | Superlative = est
+>  - Final em **-y**: happy → happier <span style="background:rgba(240, 200, 0, 0.2)">(troque y por i)</span>
+> - **CVC** (consoante-vogal-consoante): <span style="background:rgba(240, 200, 0, 0.2)">double final consonant: big → bigger</span>
+> - Final em **-e**: <span style="background:rgba(240, 200, 0, 0.2)">add -r / -st: nice → nicer → nicest</span>
 
 
-# Frases e diálogos curtos (com tradução)
+# Frases e diálogos curtos 
 - This is a big house. (Esta é uma casa grande.)
 - My sister is young and friendly. (Minha irmã é jovem e simpática.)
 - The blue car is faster than the red car. (O carro azul é mais rápido que o carro vermelho.)
@@ -66,24 +72,24 @@ B: No, it is small and very friendly. (Não, ele é pequeno e muito amigável.)
 
 # Exercícios (nível A1)
 A. Complete com o adjective correto (use do vocabulário acima)
-9. The cat is very ____. (pequeno)  
-10. My brother is ____ than me. (alto) — use comparative  
-11. This is the ____ cake in the shop. (melhor) — superlative  
-12. She has a ____ car. (vermelho)  
-13. The English class is ____. (fácil)
+9. The cat is very small. (pequeno)  
+10. My brother is taller ____ than me. (alto) — use comparative  
+11. This is the best ____ cake in the shop. (melhor) — superlative  
+12. She has a red car. (vermelho)  
+13. The English class is easy. (fácil)
 
 B. Ordene os adjectives (coloque na ordem correta: opinion + size + color + noun)
 6. (new / blue / car / small) → ______________  
 7. (cheap / interesting / book) → ______________
 
 C. Transforme (comparativo / superlativo)
-8. happy → (comparative) ____, (superlative) ____  
-9. beautiful → (comparative) ____, (superlative) ____  
-10. good → (comparative) ____, (superlative) ____
+8. happy → (happier) ____, (happiest) ____  
+9. beautiful → (more beatiful) ____, (most beautiful) ____  
+10. good → (better) ____, (best) ____
 
 D. Escolha (complete)
-11. This is (a / an) ____ big house. (use a/an)  
-12. I have ____ money. (much/many/a lot of) — use simples
+11. This is (a / an) ____ big house. (use a/an)   - a
+12. I have ____ money. (much/many/a lot of) — a lot of
 
 ##  Gabarito (respostas)
 A.
@@ -106,13 +112,5 @@ D.
 11. a (a big house)  
 12. a lot of (a lot of money) — Em A1, "a lot of" é seguro para quantidade não contável.
 
-#  Erros comuns (e como evitar)
-- Colocar adjective depois do noun: "car red" (errado). Correto: "red car".
-- Fazer concordância (mudar o adjetivo para plural): "reds cars" (errado). Use "red cars".
-- Esquecer regras de grafia no comparativo (-y, CVC, -e).
 
-#  Dicas de pronúncia (rápidas)
-- /ɪ/ vs /iː/: small differences; pratique com pares (sit/seat).
-- -er endings: pronuncie /ər/ suavemente: taller /ˈtɔːl.ər/.
-- Stress em words longas: more/most + adjective não muda o stress do adjective.
 

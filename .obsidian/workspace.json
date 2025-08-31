@@ -20,6 +20,20 @@
             }
           },
           {
+            "id": "84536ad2af6cd815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles/Future - Will and Be Going To.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Future - Will and Be Going To"
+            }
+          },
+          {
             "id": "fcebfa0bedb9efdc",
             "type": "leaf",
             "state": {
@@ -48,31 +62,17 @@
             }
           },
           {
-            "id": "944aa4f2fd79e22d",
+            "id": "0f4ad08a3a4760a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BakcEnd/DotNet/ConexaoDBComEF.md",
+                "file": "CashFlow Docs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ConexaoDBComEF"
-            }
-          },
-          {
-            "id": "3479c46178e54b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1"
+              "title": "CashFlow Docs"
             }
           }
         ],
@@ -99,7 +99,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -130,7 +130,7 @@
             }
           },
           {
-            "id": "644e45c024830457",
+            "id": "c64916e064177dd3",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -215,12 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CashFlow Docs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Outline of CashFlow Docs"
             }
           }
         ],
@@ -242,20 +243,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3479c46178e54b0b",
+  "active": "35a791293b31bba9",
   "lastOpenFiles": [
-    "BakcEnd/Tutoriais/Criando Projeto Clean Arch.md",
+    "Untitled.base",
+    "CashFlow Docs.md",
     "Tutorial Integrando MySQL com Docker em ASP.NET Core 8 + DDD1.md",
-    "BakcEnd/Tutoriais/Tutoriais.md",
-    "BakcEnd/Tutoriais",
-    "Ingles/Contractions and Parents (Class 17).md",
-    "SQL/Filtros condicionais opcionais.md",
-    "Ingles/Future.excalidraw.md",
+    "BakcEnd/Tutoriais/Criando Projeto Clean Arch.md",
+    "Git/Conventional Commits.md",
     "Ingles/Adjectives.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
+    "Git/RepositorioDotNet.md",
+    "Ingles/Future - Will and Be Going To.md",
+    "Ingles/Future.excalidraw.md",
+    "Ingles/Contractions and Parents (Class 17).md",
+    "BakcEnd/Tutoriais/Tutoriais.md",
+    "BakcEnd/Tutoriais",
+    "SQL/Filtros condicionais opcionais.md",
     "Arquivos/Imagens/Pasted Image 20250817115830_399.png",
     "Ingles/Verb To Be.md",
-    "Ingles/Future - Will and Be Going To.md",
     "Ingles/quantificadores.excalidraw",
     "Ingles/Simple Past.md",
     "Ingles/Prepositions in, o, at.md",
@@ -281,14 +286,9 @@
     ".md",
     "SQL",
     "BakcEnd/DotNet/FluxoAcessoDB.excalidraw.md",
-    "BakcEnd/DotNet/ExceptionPersonalizada.tutorial.md",
-    "BakcEnd/DotNet/ConexaoDBComEF.excalidraw.md",
-    "BakcEnd/DotNet/Untitled.md",
-    "BakcEnd/DotNet/PersistenciaDados.md",
     "Git",
     "BakcEnd/DotNet/Testes",
     "BakcEnd/Camadas",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts"
+    "Excalidraw/Scripts/Downloaded"
   ]
 }

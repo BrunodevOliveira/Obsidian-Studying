@@ -91,10 +91,10 @@ docker-compose down -v
 # Entity Framework Core para MySQL
 dotnet add package Pomelo.EntityFrameworkCore.MySql
 
-# Ferramentas de migração
+# Ferramentas de migração - Não precisa se tiver o dotnet ef intalado na maquina
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 
-# Para injeção de dependência
+# Para injeção de dependência - Não precisa caso tenha um projeto de API que faça referencia para a camada de Infraestructure, essa camada conssegue aproveitar o DependencyInjection da camada de API 
 dotnet add package Microsoft.Extensions.DependencyInjection
 ```
 
