@@ -42,8 +42,8 @@
     "//Excalidraw/Excalidraw/Scripts/Excalidraw/Scripts/Downloaded",
     "//Arquivos/Arquivos/Imagens",
     "//BakcEnd/BakcEnd/tutoriais",
-    "//BakcEnd",
-    "/"
+    "/",
+    "//BakcEnd"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

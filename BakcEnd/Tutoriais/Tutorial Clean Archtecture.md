@@ -1,3 +1,7 @@
+---
+aliases:
+sticker: lucide//file-text
+---
 # Camadas Principais (Core)
 
    1. `CashFlow.Domain`: Este é o coração da sua aplicação.
