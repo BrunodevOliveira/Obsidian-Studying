@@ -144,7 +144,7 @@
             }
           },
           {
-            "id": "d27bbdfb18d3e543",
+            "id": "d90d451437f279cc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922,
-    "collapsed": true
+    "width": 307.5110321044922
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -258,11 +257,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35a791293b31bba9",
+  "active": "a0b96d6d67752080",
   "lastOpenFiles": [
-    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
+    "Gists/Comandos Entity.md",
+    "Gists/Comandos Docker.md",
     "Task Flow.md",
-    "Infra/Comandos Docker.md",
+    "Gists/Gists.md",
+    "Gists",
+    "Ingles/Future.excalidraw.md",
+    "Arquivos/Imagens/Pasted Image 20250914104929_081.png",
+    "Arquivos/Imagens/Pasted Image 20250914104832_159.png",
+    "Arquivos/Imagens/Pasted Image 20250914103902_378.png",
+    "Arquivos/Imagens/Pasted Image 20250914103444_324.png",
+    "Arquivos/Imagens/Pasted Image 20250914103321_361.png",
+    "Arquivos/Imagens/Pasted Image 20250914101917_100.png",
+    "Ingles/Future - Will and Be Going To.md",
+    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
     "Infra/Infra.md",
     "Infra",
     "Untitled.base",
@@ -272,8 +282,6 @@
     "Ingles/Adjectives.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
     "Git/RepositorioDotNet.md",
-    "Ingles/Future - Will and Be Going To.md",
-    "Ingles/Future.excalidraw.md",
     "Ingles/Contractions and Parents (Class 17).md",
     "BakcEnd/Tutoriais/Tutoriais.md",
     "BakcEnd/Tutoriais",
@@ -290,21 +298,12 @@
     "Arquivos/Imagens/Pasted Image 20250824115412_762.png",
     "Arquivos/Imagens/Pasted Image 20250824104321_747.png",
     "Arquivos/Imagens/Pasted Image 20250824102740_104.png",
-    "Arquivos/Imagens/Pasted Image 20250824102533_421.png",
-    "Arquivos/Imagens/Pasted Image 20250824102354_815.png",
-    "Arquivos/Imagens/Pasted Image 20250824101752_978.png",
-    "Arquivos/Imagens/Pasted Image 20250824101708_815.png",
-    "Arquivos/Imagens/Pasted Image 20250824101545_762.png",
-    "Arquivos/Imagens/Pasted Image 20250824101410_739.png",
     "BakcEnd/DotNet/DotNet.md",
     "Git/Git.md",
-    "Ingles/Modal Verbs.excalidraw.md",
-    "Modal Verbs.md",
     "Tags",
     ".md",
     "SQL",
     "Git",
-    "BakcEnd/DotNet/Testes",
-    "BakcEnd/Camadas"
+    "BakcEnd/DotNet/Testes"
   ]
 }

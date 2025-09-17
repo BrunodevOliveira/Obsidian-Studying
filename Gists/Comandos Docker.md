@@ -1,4 +1,5 @@
-| Comando                | Descrição                                             |
+
+|                        | Descrição                                             |
 | :--------------------- | ----------------------------------------------------- |
 | `docker run`           | Cria e inicia um container a partir de uma imagem.    |
 | `docker ps`            | Lista os containers em execução.                      |
