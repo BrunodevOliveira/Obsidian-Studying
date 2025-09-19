@@ -1,3 +1,7 @@
+---
+tags:
+  - entity
+---
 
  <center><h1>Create</h1></center>
  

@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gists/Comandos Entity.md",
+                "file": "Task Flow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comandos Entity"
+              "title": "Task Flow"
             }
           }
         ],
@@ -144,7 +144,7 @@
             }
           },
           {
-            "id": "e687760b68ad90d8",
+            "id": "ec982e3edec3300d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -259,9 +259,12 @@
   },
   "active": "a0b96d6d67752080",
   "lastOpenFiles": [
+    "Gists/Remover Migration inicial.md",
     "Gists/Comandos Entity.md",
-    "Gists/Comandos Docker.md",
     "Task Flow.md",
+    "enitty.md",
+    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
+    "Gists/Comandos Docker.md",
     "Gists/Gists.md",
     "Gists",
     "Ingles/Future.excalidraw.md",
@@ -272,7 +275,6 @@
     "Arquivos/Imagens/Pasted Image 20250914103321_361.png",
     "Arquivos/Imagens/Pasted Image 20250914101917_100.png",
     "Ingles/Future - Will and Be Going To.md",
-    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
     "Infra/Infra.md",
     "Infra",
     "Untitled.base",
@@ -298,8 +300,6 @@
     "Arquivos/Imagens/Pasted Image 20250824115412_762.png",
     "Arquivos/Imagens/Pasted Image 20250824104321_747.png",
     "Arquivos/Imagens/Pasted Image 20250824102740_104.png",
-    "BakcEnd/DotNet/DotNet.md",
-    "Git/Git.md",
     "Tags",
     ".md",
     "SQL",
