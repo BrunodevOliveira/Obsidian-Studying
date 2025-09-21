@@ -4,8 +4,7 @@ tags: entity
 ## Passo 1: Reverter o Banco de Dados ao Estado Inicial
 
 
-  Este comando aplica a "migration zero", que efetivamente desfaz todas as migrations aplicadas, rodando o método Down() da sua última
-  migration e apagando as tabelas.
+  Este comando aplica a "migration zero", que efetivamente desfaz todas as migrations aplicadas, rodando o método Down() da sua última migration e apagando as tabelas.
 ```bash
   dotnet ef database update 0 -p ../Base.Infrastructure
 ```

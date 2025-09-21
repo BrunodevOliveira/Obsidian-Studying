@@ -20,6 +20,20 @@
             }
           },
           {
+            "id": "efee2c5a8ad9e826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingles/Auxiliary Verbs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Auxiliary Verbs"
+            }
+          },
+          {
             "id": "84536ad2af6cd815",
             "type": "leaf",
             "state": {
@@ -34,17 +48,17 @@
             }
           },
           {
-            "id": "fcebfa0bedb9efdc",
+            "id": "632d75b914ca7587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingles/Contractions and Parents (Class 17).md",
+                "file": "Ingles/Simple Past.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contractions and Parents (Class 17)"
+              "title": "Simple Past"
             }
           },
           {
@@ -74,23 +88,9 @@
               "icon": "lucide-file",
               "title": "Tutorial Clean Archtecture"
             }
-          },
-          {
-            "id": "a0b96d6d67752080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task Flow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Task Flow"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             }
           },
           {
-            "id": "ec982e3edec3300d",
+            "id": "15f493d09a86b676",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -158,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 307.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "4ceefa4b28723a10",
@@ -257,24 +258,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a0b96d6d67752080",
+  "active": "efee2c5a8ad9e826",
   "lastOpenFiles": [
-    "Gists/Remover Migration inicial.md",
-    "Gists/Comandos Entity.md",
-    "Task Flow.md",
-    "enitty.md",
-    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
-    "Gists/Comandos Docker.md",
-    "Gists/Gists.md",
-    "Gists",
     "Ingles/Future.excalidraw.md",
+    "Ingles/Auxiliary Verbs.md",
+    "Ingles/Simple Past.md",
+    "Ingles/Contractions and Parents (Class 17).md",
+    "Ingles/Future - Will and Be Going To.md",
+    "BakcEnd/Tutoriais/Tutorial Clean Archtecture.md",
+    "Task Flow.md",
+    "Gists/Gists.md",
+    "Gists/Comandos Entity.md",
+    "Gists/Remover Migration inicial.md",
+    "Gists/Comandos Docker.md",
+    "Gists/Conectar container de Database via terminal.md",
+    "enitty.md",
+    "Gists",
     "Arquivos/Imagens/Pasted Image 20250914104929_081.png",
     "Arquivos/Imagens/Pasted Image 20250914104832_159.png",
     "Arquivos/Imagens/Pasted Image 20250914103902_378.png",
     "Arquivos/Imagens/Pasted Image 20250914103444_324.png",
     "Arquivos/Imagens/Pasted Image 20250914103321_361.png",
     "Arquivos/Imagens/Pasted Image 20250914101917_100.png",
-    "Ingles/Future - Will and Be Going To.md",
     "Infra/Infra.md",
     "Infra",
     "Untitled.base",
@@ -284,19 +289,15 @@
     "Ingles/Adjectives.md",
     "BakcEnd/DotNet/ConexaoDBComEF.md",
     "Git/RepositorioDotNet.md",
-    "Ingles/Contractions and Parents (Class 17).md",
     "BakcEnd/Tutoriais/Tutoriais.md",
     "BakcEnd/Tutoriais",
     "SQL/Filtros condicionais opcionais.md",
     "Arquivos/Imagens/Pasted Image 20250817115830_399.png",
     "Ingles/Verb To Be.md",
     "Ingles/quantificadores.excalidraw",
-    "Ingles/Simple Past.md",
     "Ingles/Prepositions in, o, at.md",
     "Ingles/Possessive.md",
     "Ingles/Modal Verbs.md",
-    "Ingles/Simple Present.md",
-    "LLM/Mentor Csharp.md",
     "Arquivos/Imagens/Pasted Image 20250824115412_762.png",
     "Arquivos/Imagens/Pasted Image 20250824104321_747.png",
     "Arquivos/Imagens/Pasted Image 20250824102740_104.png",
